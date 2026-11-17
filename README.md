@@ -28,13 +28,13 @@ English description: A Windows desktop overlay deck tracker for *Legends of Rune
 ### 运行环境与安装
 
 - 操作系统：Windows 10 / 11
-- 运行时：需安装 [.NET 9 桌面运行时](https://dotnet.microsoft.com/download/dotnet/9.0)（发布包为 framework-dependent，不自带运行时）
+- 运行时：无需安装 .NET，发布包已包含 .NET 9 运行时（self-contained），解压即用
 - 从 [Releases](https://github.com/Nohtaehp/LoRPoCTracker/releases) 下载 `LoRPoCTracker-<版本>-win-x64.zip`，解压后运行 `LoRPoCTracker.exe`
 
 ### 从源码构建
 
 ```powershell
-dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --self-contained false -o publish
+dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --self-contained true -o publish
 ```
 
 命令行参数：
@@ -72,13 +72,13 @@ dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --se
 ### Requirements & installation
 
 - OS: Windows 10 / 11
-- Runtime: [.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0) (the release package is framework-dependent)
+- Runtime: none required — the release package is self-contained and bundles .NET 9
 - Download `LoRPoCTracker-<version>-win-x64.zip` from [Releases](https://github.com/Nohtaehp/LoRPoCTracker/releases), extract it, and run `LoRPoCTracker.exe`
 
 ### Build from source
 
 ```powershell
-dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --self-contained false -o publish
+dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --self-contained true -o publish
 ```
 
 Command-line options:

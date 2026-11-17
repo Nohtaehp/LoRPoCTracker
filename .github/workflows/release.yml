@@ -37,11 +37,11 @@ jobs:
           if ($v -notmatch '^\d+\.\d+\.\d+$') { throw "版本号格式应为 x.y.z，实际为 $v" }
           "version=$v" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
 
-      - name: Publish (framework-dependent, win-x64)
+      - name: Publish (self-contained, win-x64)
         shell: pwsh
         run: |
           dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj `
-            -c Release -r win-x64 --self-contained false `
+            -c Release -r win-x64 --self-contained true `
             -p:Version=${{ steps.ver.outputs.version }} `
             -o publish
 
@@ -89,7 +89,7 @@ jobs:
             package = "${{ steps.pkg.outputs.name }}"
             sha256 = "${{ steps.pkg.outputs.hash }}"
             size = [long]"${{ steps.pkg.outputs.size }}"
-            minRuntime = "9.0"
+            minRuntime = "none"
           } | ConvertTo-Json -Depth 3
           New-Item -ItemType Directory -Force -Path update | Out-Null
           $manifest | Out-File -FilePath update/manifest.json -Encoding utf8
