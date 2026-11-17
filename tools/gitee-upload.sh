@@ -7,8 +7,8 @@ VERSION="${VERSION:?请设置 VERSION，例如 VERSION=1.0.4}"
 VERSION="${VERSION#v}"
 TAG="v${VERSION}"
 PKG="LoRPoCTracker-${VERSION}-win-x64.zip"
-REPO="${GITEE_REPO:-wuyi12138/LoRPoCTracker}"
-TOKEN="${GITEE_TOKEN:?请在流水线变量中配置 GITEE_TOKEN}"
+REPO="${RELEASE_REPO:-wuyi12138/LoRPoCTracker}"
+TOKEN="${RELEASE_TOKEN:?请在流水线变量中配置 RELEASE_TOKEN}"
 
 echo "版本: ${TAG}  包: ${PKG}"
 
