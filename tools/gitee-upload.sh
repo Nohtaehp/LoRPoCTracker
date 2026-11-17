@@ -8,7 +8,15 @@ VERSION="${VERSION#v}"
 TAG="v${VERSION}"
 PKG="LoRPoCTracker-${VERSION}-win-x64.zip"
 REPO="${RELEASE_REPO:-wuyi12138/LoRPoCTracker}"
-TOKEN="${RELEASE_TOKEN:?请在流水线变量中配置 RELEASE_TOKEN}"
+TOKEN="${RELEASE_TOKEN:-}"
+
+if [ -z "${TOKEN}" ]; then
+    echo "错误：RELEASE_TOKEN 未注入（长度为 0）"
+    echo "当前环境变量中包含 TOKEN 的项："
+    env | grep -i token | sed 's/=.*/=<已隐藏>/' || echo "  （无）"
+    exit 1
+fi
+echo "RELEASE_TOKEN 已注入，长度 ${#TOKEN}"
 
 echo "版本: ${TAG}  包: ${PKG}"
 
