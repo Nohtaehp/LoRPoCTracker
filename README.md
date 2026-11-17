@@ -15,7 +15,8 @@ English description: A Windows desktop overlay deck tracker for *Legends of Rune
 - **牌库录制与管理**（管理员模式）：将每场 Boss 战出过的牌合并保存到本地 `data/encounters.json`，支持定档、重命名、导出/导入 `.lorboss.json`，以及从云端只读数据源增量合并。
 - **多数据源**：本地源（唯一可写）、jsDelivr 云源、GitHub raw 备用源；网络源只读，支持多个直链与断网缓存回退。
 - **卡牌数据**：使用 Riot Data Dragon（set1–set9 等）与 PvE `tpoc` 数据；从游戏安装目录提取 99 系列原画/卡框并本地渲染；卡图按需下载并带 wiki 兜底。
-- **在线更新**：启动时检查 GitHub `update/manifest.json`，多源回退、SHA256 校验后下载安装。
+- **在线更新**：启动时检查 `update/manifest.json`，并发读取 Gitee / jsDelivr / GitHub 多个源并取最高版本，多源回退、SHA256 校验后下载安装。
+- **单实例**：重复启动不会开出第二个进程，会自动唤出已在托盘或隐藏的悬浮窗。
 - **界面与交互**：浅色/深色主题跟随 Windows；窗口可拖拽、自动贴边、透明度可调；菜单中可切换数据源、牌库显示、点击穿透等。
 
 ### 快捷键
@@ -44,6 +45,12 @@ dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --se
 
 配置文件位于程序目录下 `data/config.json`（API 端口、区域语言、游戏目录、轮询间隔、窗口外观、录制选项等）。
 
+### 更新与国内镜像
+
+更新检测会并发读取所有源并取版本号最高的清单：**Gitee 镜像 → jsDelivr CDN → GitHub raw → ghfast / gh-proxy 加速镜像**。更新包优先从 Gitee Release 下载，失败后自动回退 GitHub Releases 及加速镜像。
+
+Gitee 镜像在发布时由 GitHub Actions 自动同步：在仓库 Secrets 中配置 `GITEE_TOKEN`（Gitee 私人令牌）即可，可选 `GITEE_USER`、`GITEE_REPO`（默认与 GitHub 仓库同名）。未配置时该步骤自动跳过，不影响 GitHub 发布。Gitee 免费版限制：单附件不超过 100 MB、仓库附件总量不超过 1 GB。
+
 ### 数据来源与版权
 
 卡牌名称、图片等游戏数据来自 Riot Games 的 Data Dragon 与本地游戏客户端。应用图标（悠米）取自 Riot Data Dragon 的官方英雄头像；`COPYRIGHT` 内容为 `Copyright Riot Games, Inc. 2019`；补充图标来源见 `tools/icons/README.md`（CC BY 3.0）。本仓库 `docs/` 目录中的 99 系列卡牌清单与统计表为本地核对资料，不纳入版本库、不随发布包分发。
@@ -59,7 +66,8 @@ dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --se
 - **Deck recording & management (Admin Mode)**: merges cards seen in each Boss encounter into the local `data/encounters.json`; supports finalizing, renaming, exporting/importing `.lorboss.json`, and incremental merging from read-only cloud sources.
 - **Multiple sources**: a local source (the only writable one), a jsDelivr cloud source, and a GitHub raw fallback; network sources are read-only, accept multiple URLs, and fall back to cached data offline.
 - **Card data**: Riot Data Dragon (set1–set9, etc.) plus PvE `tpoc` data; extracts 99-series illustrations/frames from the game installation for local rendering; downloads card images on demand with a wiki fallback.
-- **Online updates**: checks GitHub `update/manifest.json` on startup, with multi-source fallback and SHA256 verification before installing.
+- **Online updates**: checks `update/manifest.json` on startup, reads all Gitee / jsDelivr / GitHub sources concurrently and picks the highest version, then falls back across mirrors with SHA256 verification before installing.
+- **Single instance**: launching again brings the existing overlay back from the tray instead of starting a second process.
 - **UI**: Windows light/dark theme awareness; draggable window, auto-docking, adjustable opacity, and menu toggles for data sources, deck display, click-through, etc.
 
 ### Shortcuts
@@ -87,6 +95,12 @@ Command-line options:
 - `--show-version`: resolve the Data Dragon version, then exit
 
 Settings live in `data/config.json` next to the executable (API port, locale, game directory, poll interval, appearance, recording options, etc.).
+
+### Updates & mirrors
+
+Update checks read all sources concurrently and pick the highest version: **Gitee mirror → jsDelivr CDN → GitHub raw → ghfast / gh-proxy mirrors**. Packages are downloaded from Gitee Releases first, then fall back to GitHub Releases and proxies.
+
+The Gitee mirror is synced automatically by GitHub Actions on release: add a `GITEE_TOKEN` secret (Gitee personal access token); `GITEE_USER` and `GITEE_REPO` are optional and default to the GitHub repo. Without the token the step is skipped silently. Gitee free-tier limits: 100 MB per attachment and 1 GB total attachments per repository.
 
 ### Data sources & copyright
 

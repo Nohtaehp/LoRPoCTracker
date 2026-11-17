@@ -110,3 +110,50 @@ jobs:
           git add update/manifest.json
           git commit -m "chore: update manifest to ${{ steps.ver.outputs.version }}" || exit 0
           git push origin HEAD:main
+
+      # 可选：配置 secrets.GITEE_TOKEN（Gitee 私人令牌）后自动镜像代码与发行版到 Gitee
+      - name: Sync to Gitee (optional)
+        shell: pwsh
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_USER: ${{ secrets.GITEE_USER }}
+          GITEE_REPO: ${{ secrets.GITEE_REPO }}
+        run: |
+          if (-not $env:GITEE_TOKEN) {
+            Write-Host "GITEE_TOKEN 未配置，跳过 Gitee 同步"
+            exit 0
+          }
+
+          $v = "${{ steps.ver.outputs.version }}"
+          $tag = "v$v"
+          $zip = "${{ steps.pkg.outputs.name }}"
+          $user = if ($env:GITEE_USER) { $env:GITEE_USER } else { "Nohtaehp" }
+          $repo = if ($env:GITEE_REPO) { $env:GITEE_REPO } else { "Nohtaehp/LoRPoCTracker" }
+          $branch = "main"
+
+          # 1) 同步分支与标签（失败不阻断 GitHub 发布）
+          git remote add gitee "https://${user}:$($env:GITEE_TOKEN)@gitee.com/$repo.git"
+          git push gitee "HEAD:$branch" --force
+          if ($LASTEXITCODE -ne 0) { Write-Warning "Gitee 分支同步失败，跳过发行版上传"; exit 0 }
+          git push gitee "refs/tags/$tag" --force
+          if ($LASTEXITCODE -ne 0) { Write-Warning "Gitee 标签同步失败，跳过发行版上传"; exit 0 }
+
+          # 2) 创建或复用发行版
+          $api = "https://gitee.com/api/v5/repos/$repo"
+          $body = @{
+            access_token = $env:GITEE_TOKEN
+            tag_name = $tag
+            name = $tag
+            target_commitish = $branch
+            body = "详见 Release 页面：https://github.com/${{ github.repository }}/releases/tag/$tag"
+          } | ConvertTo-Json
+          try {
+            $release = Invoke-RestMethod -Method Post -Uri "$api/releases" -Body $body -ContentType "application/json"
+          } catch {
+            $release = Invoke-RestMethod -Uri "$api/releases/tags/$tag`?access_token=$($env:GITEE_TOKEN)"
+          }
+
+          # 3) 上传安装包附件（Gitee 单附件上限 100MB）
+          Invoke-RestMethod -Method Post -Uri "$api/releases/$($release.id)/attach_files" `
+            -Form @{ access_token = $env:GITEE_TOKEN; file = Get-Item $zip }
+          Write-Host "已同步到 Gitee：https://gitee.com/$repo/releases/tag/$tag"

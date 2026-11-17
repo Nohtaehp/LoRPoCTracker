@@ -97,6 +97,13 @@ public partial class App : System.Windows.Application
 
         base.OnStartup(e);
 
+        // 单实例：已有实例在运行则请求它显示窗口并立即退出
+        if (!SingleInstance.TryAcquire())
+        {
+            Shutdown();
+            return;
+        }
+
         DispatcherUnhandledException += (_, args) =>
         {
             MessageBox.Show("记牌器发生错误：\n" + args.Exception.Message, "LoR 英雄之路记牌器",

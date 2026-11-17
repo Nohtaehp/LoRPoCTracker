@@ -24,6 +24,11 @@ public sealed class UpdateService
     public const string RepoName = "LoRPoCTracker";
     public const string RepoBranch = "main";
 
+    /// <summary>Gitee 镜像仓库（国内优先源）。仓库需公开，否则自动回退到 GitHub 源。</summary>
+    public const string GiteeOwner = "Nohtaehp";
+    public const string GiteeRepo = "LoRPoCTracker";
+    public const string GiteeBranch = "main";
+
     private const string ManifestPath = "update/manifest.json";
     private const string AppExeName = "LoRPoCTracker.exe";
     private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
@@ -43,6 +48,9 @@ public sealed class UpdateService
     private static string RawManifestUrl =>
         $"https://raw.githubusercontent.com/{RepoOwner}/{RepoName}/{RepoBranch}/{ManifestPath}";
 
+    private static string GiteeRawManifestUrl =>
+        $"https://gitee.com/{GiteeOwner}/{GiteeRepo}/raw/{GiteeBranch}/{ManifestPath}";
+
     private static string ReleaseUrl(string fileName) =>
         $"https://github.com/{RepoOwner}/{RepoName}/releases/latest/download/{fileName}";
 
@@ -51,6 +59,7 @@ public sealed class UpdateService
         var stamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
         return
         [
+            $"{GiteeRawManifestUrl}?t={stamp}",
             $"https://cdn.jsdelivr.net/gh/{RepoOwner}/{RepoName}@{RepoBranch}/{ManifestPath}?t={stamp}",
             RawManifestUrl,
             $"https://ghfast.top/{RawManifestUrl}",
@@ -62,8 +71,11 @@ public sealed class UpdateService
     {
         if (string.IsNullOrWhiteSpace(info.Package)) return [];
         var direct = ReleaseUrl(info.Package);
+        var gitee =
+            $"https://gitee.com/{GiteeOwner}/{GiteeRepo}/releases/download/v{info.Version}/{info.Package}";
         return
         [
+            gitee,
             direct,
             $"https://ghfast.top/{direct}",
             $"https://gh-proxy.com/{direct}",
@@ -157,7 +169,8 @@ public sealed class UpdateService
         Directory.CreateDirectory(tempDir);
         var target = Path.Combine(tempDir, info.Package);
 
-        using var http = new HttpClient { Timeout = TimeSpan.FromMinutes(5) };
+        // 安装包约 70MB，慢速网络下 5 分钟容易超时
+        using var http = new HttpClient { Timeout = TimeSpan.FromMinutes(15) };
         var errors = new List<string>();
 
         foreach (var url in urls)
@@ -260,6 +273,7 @@ public sealed class UpdateService
 
     private static string SourceName(string url)
     {
+        if (url.Contains("gitee.com", StringComparison.OrdinalIgnoreCase)) return "Gitee 镜像";
         if (url.Contains("jsdelivr.net", StringComparison.OrdinalIgnoreCase)) return "jsDelivr CDN";
         if (url.Contains("ghfast.top", StringComparison.OrdinalIgnoreCase)) return "ghfast 镜像";
         if (url.Contains("gh-proxy.com", StringComparison.OrdinalIgnoreCase)) return "gh-proxy 镜像";

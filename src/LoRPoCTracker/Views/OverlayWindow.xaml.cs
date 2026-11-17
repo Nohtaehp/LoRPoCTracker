@@ -223,6 +223,14 @@ public partial class OverlayWindow : Window
 
     private IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
     {
+        // 第二个实例启动：把悬浮窗从托盘/隐藏状态唤出
+        if (msg == SingleInstance.ActivateMessage)
+        {
+            Dispatcher.BeginInvoke(new Action(ShowFromSecondInstance));
+            handled = true;
+            return IntPtr.Zero;
+        }
+
         if (msg == WmHotkey)
         {
             switch (wParam.ToInt32())
@@ -240,6 +248,15 @@ public partial class OverlayWindow : Window
         }
 
         return IntPtr.Zero;
+    }
+
+    /// <summary>第二个实例启动时把悬浮窗从托盘/隐藏状态唤出。</summary>
+    private void ShowFromSecondInstance()
+    {
+        if (!IsVisible) Show();
+        if (WindowState == WindowState.Minimized) WindowState = WindowState.Normal;
+        WindowEffects.ReassertTopmost(this);
+        Activate();
     }
 
     private void ApplyBackground()
