@@ -25,7 +25,7 @@ public sealed class UpdateService
     public const string RepoBranch = "main";
 
     /// <summary>Gitee 镜像仓库（国内优先源）。仓库需公开，否则自动回退到 GitHub 源。</summary>
-    public const string GiteeOwner = "Nohtaehp";
+    public const string GiteeOwner = "wuyi12138";
     public const string GiteeRepo = "LoRPoCTracker";
     public const string GiteeBranch = "main";
 

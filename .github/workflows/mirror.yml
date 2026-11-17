@@ -1,0 +1,35 @@
+name: Mirror to Gitee
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_USER: ${{ secrets.GITEE_USER }}
+          GITEE_REPO: ${{ secrets.GITEE_REPO }}
+        run: |
+          if [ -z "$GITEE_TOKEN" ]; then
+            echo "GITEE_TOKEN 未配置，跳过 Gitee 镜像"
+            exit 0
+          fi
+          USER_NAME="${GITEE_USER:-wuyi12138}"
+          REPO="${GITEE_REPO:-wuyi12138/LoRPoCTracker}"
+          git remote add gitee "https://${USER_NAME}:${GITEE_TOKEN}@gitee.com/${REPO}.git"
+          git push gitee HEAD:main --force
+          echo "已同步到 https://gitee.com/${REPO}"

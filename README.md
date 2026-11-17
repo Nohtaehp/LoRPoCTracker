@@ -49,7 +49,9 @@ dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --se
 
 更新检测会并发读取所有源并取版本号最高的清单：**Gitee 镜像 → jsDelivr CDN → GitHub raw → ghfast / gh-proxy 加速镜像**。更新包优先从 Gitee Release 下载，失败后自动回退 GitHub Releases 及加速镜像。
 
-Gitee 镜像在发布时由 GitHub Actions 自动同步：在仓库 Secrets 中配置 `GITEE_TOKEN`（Gitee 私人令牌）即可，可选 `GITEE_USER`、`GITEE_REPO`（默认与 GitHub 仓库同名）。未配置时该步骤自动跳过，不影响 GitHub 发布。Gitee 免费版限制：单附件不超过 100 MB、仓库附件总量不超过 1 GB。
+Gitee 镜像仓库：[wuyi12138/LoRPoCTracker](https://gitee.com/wuyi12138/LoRPoCTracker)。代码在 `main` 分支 push 后由 `Mirror to Gitee` workflow 实时同步；发布时由 `Build & Release` workflow 自动创建 Gitee 发行版并上传安装包。
+
+需要在 GitHub 仓库 Secrets 配置 `GITEE_TOKEN`（Gitee 私人令牌，需 `projects` 权限）；可选 `GITEE_USER`、`GITEE_REPO`（默认 `wuyi12138/LoRPoCTracker`）。未配置时自动跳过，不影响 GitHub 发布。Gitee 免费版限制：单附件不超过 100 MB、仓库附件总量不超过 1 GB。
 
 ### 数据来源与版权
 
@@ -100,7 +102,9 @@ Settings live in `data/config.json` next to the executable (API port, locale, ga
 
 Update checks read all sources concurrently and pick the highest version: **Gitee mirror → jsDelivr CDN → GitHub raw → ghfast / gh-proxy mirrors**. Packages are downloaded from Gitee Releases first, then fall back to GitHub Releases and proxies.
 
-The Gitee mirror is synced automatically by GitHub Actions on release: add a `GITEE_TOKEN` secret (Gitee personal access token); `GITEE_USER` and `GITEE_REPO` are optional and default to the GitHub repo. Without the token the step is skipped silently. Gitee free-tier limits: 100 MB per attachment and 1 GB total attachments per repository.
+Gitee mirror: [wuyi12138/LoRPoCTracker](https://gitee.com/wuyi12138/LoRPoCTracker). Code is mirrored in near real time by the `Mirror to Gitee` workflow on every push to `main`; the `Build & Release` workflow also creates the Gitee release and uploads the package.
+
+Add a `GITEE_TOKEN` secret (Gitee personal access token with `projects` scope) to the GitHub repository; `GITEE_USER` and `GITEE_REPO` are optional and default to `wuyi12138/LoRPoCTracker`. Without the token the steps are skipped silently. Gitee free-tier limits: 100 MB per attachment and 1 GB total attachments per repository.
 
 ### Data sources & copyright
 

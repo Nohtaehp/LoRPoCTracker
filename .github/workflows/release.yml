@@ -127,8 +127,8 @@ jobs:
           $v = "${{ steps.ver.outputs.version }}"
           $tag = "v$v"
           $zip = "${{ steps.pkg.outputs.name }}"
-          $user = if ($env:GITEE_USER) { $env:GITEE_USER } else { "Nohtaehp" }
-          $repo = if ($env:GITEE_REPO) { $env:GITEE_REPO } else { "Nohtaehp/LoRPoCTracker" }
+          $user = if ($env:GITEE_USER) { $env:GITEE_USER } else { "wuyi12138" }
+          $repo = if ($env:GITEE_REPO) { $env:GITEE_REPO } else { "wuyi12138/LoRPoCTracker" }
           $branch = "main"
 
           # 1) 同步分支与标签（失败不阻断 GitHub 发布）
