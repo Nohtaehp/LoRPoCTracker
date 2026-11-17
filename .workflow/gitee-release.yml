@@ -15,5 +15,7 @@ stages:
         name: upload_asset
         displayName: 下载 GitHub 包并上传到 Gitee
         nodeVersion: 20.11.0
+        env:
+          RELEASE_TOKEN: ${RELEASE_TOKEN}
         commands:
           - 'VERSION=1.0.4 bash tools/gitee-upload.sh'
