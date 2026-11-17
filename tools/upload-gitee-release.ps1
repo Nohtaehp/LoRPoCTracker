@@ -1,5 +1,6 @@
-# 本地把 GitHub Release 安装包补传到 Gitee 发行版
+﻿# 本地把 GitHub Release 安装包上传到 Gitee 发行版
 # 用法：pwsh tools/upload-gitee-release.ps1 -Version 1.0.4 -Token <Gitee私人令牌>
+# 或先设置环境变量 GITEE_TOKEN 后省略 -Token
 param(
     [Parameter(Mandatory = $true)][string]$Version,
     [string]$Token = $env:GITEE_TOKEN,
@@ -9,6 +10,7 @@ param(
 $ErrorActionPreference = "Stop"
 if (-not $Token) { throw "缺少 Gitee 令牌：请设置环境变量 GITEE_TOKEN 或传 -Token" }
 
+$Version = $Version.TrimStart('v', 'V')
 $tag = "v$Version"
 $pkg = "LoRPoCTracker-$Version-win-x64.zip"
 $tmp = Join-Path $env:TEMP "lor-gitee-$Version"
@@ -16,9 +18,29 @@ New-Item -ItemType Directory -Force -Path $tmp | Out-Null
 $zip = Join-Path $tmp $pkg
 
 if (-not (Test-Path $zip)) {
-    Write-Host "下载 GitHub Release 安装包..."
-    Invoke-WebRequest -Uri "https://github.com/Nohtaehp/LoRPoCTracker/releases/download/$tag/$pkg" `
-        -OutFile $zip -UseBasicParsing
+    $direct = "https://github.com/Nohtaehp/LoRPoCTracker/releases/download/$tag/$pkg"
+    $sources = @(
+        $direct,
+        "https://ghfast.top/$direct",
+        "https://gh-proxy.com/$direct",
+        "https://ghproxy.net/$direct"
+    )
+
+    $downloaded = $false
+    foreach ($src in $sources) {
+        try {
+            Write-Host "下载安装包：$src"
+            Invoke-WebRequest -Uri $src -OutFile $zip -UseBasicParsing -TimeoutSec 1800
+            $downloaded = $true
+            break
+        }
+        catch {
+            Write-Warning "下载失败：$($_.Exception.Message)"
+            if (Test-Path $zip) { Remove-Item $zip -Force }
+        }
+    }
+
+    if (-not $downloaded) { throw "所有下载源均失败，请检查网络" }
 }
 Write-Host ("安装包大小：{0:N2} MB" -f ((Get-Item $zip).Length / 1MB))
 
