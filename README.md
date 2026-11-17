@@ -51,7 +51,7 @@ dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --se
 
 Gitee 镜像仓库：[wuyi12138/LoRPoCTracker](https://gitee.com/wuyi12138/LoRPoCTracker)。代码在 `main` 分支 push 后由 `Mirror to Gitee` workflow 实时同步；发布时由 `Build & Release` workflow 创建 Gitee 发行版（安装包附件不在 CI 上传，避免跨网上传超时）。
 
-发版后在本机运行一次 `upload-gitee-release.bat`（或 `pwsh tools/upload-gitee-release.ps1 -Version <版本>`）把安装包上传到 Gitee 发行版；令牌通过环境变量 `GITEE_TOKEN` 或运行时输入提供。项目内置 `.codebuddy/skills/gitee-release` skill，AI 发版时会自动执行该步骤。
+发版一键完成：双击 `release.bat`（或 `release.bat 1.0.6` 指定版本），会自动提交、递增版本、打 tag、等待 GitHub Actions、上传安装包到 Gitee 并验证下载地址。令牌首次输入后会保存到 `%USERPROFILE%\.lor-gitee-token`，也可用环境变量 `GITEE_TOKEN` 覆盖。只补传附件时运行 `upload-gitee-release.bat`。项目内置 `.codebuddy/skills/gitee-release` skill，AI 发版时会自动执行该流程。
 
 GitHub 仓库 Secrets 需配置 `GITEE_TOKEN`（用于代码/tag 同步与发行版创建，需 `projects` 权限）；可选 `GITEE_USER`、`GITEE_REPO`（默认 `wuyi12138/LoRPoCTracker`）。Gitee 免费版限制：单附件不超过 100 MB、仓库附件总量不超过 1 GB。
 
@@ -106,7 +106,7 @@ Update checks read all sources concurrently and pick the highest version: **Gite
 
 Gitee mirror: [wuyi12138/LoRPoCTracker](https://gitee.com/wuyi12138/LoRPoCTracker). Code is mirrored in near real time by the `Mirror to Gitee` workflow on every push to `main`; the `Build & Release` workflow creates the Gitee release (the package is not uploaded from CI to avoid cross-border upload timeouts).
 
-After a release, run `upload-gitee-release.bat` locally (or `pwsh tools/upload-gitee-release.ps1 -Version <version>`) to upload the package to the Gitee release; provide the token via the `GITEE_TOKEN` environment variable or on prompt. The `.codebuddy/skills/gitee-release` skill automates this step during releases.
+Release in one click: run `release.bat` (or `release.bat 1.0.6` for a specific version). It commits, bumps the version, tags, waits for GitHub Actions, uploads the package to the Gitee release and verifies the download URL. The token is saved to `%USERPROFILE%\.lor-gitee-token` after the first prompt and can be overridden with the `GITEE_TOKEN` environment variable. Use `upload-gitee-release.bat` to upload the asset only. The `.codebuddy/skills/gitee-release` skill automates this flow during releases.
 
 Add a `GITEE_TOKEN` secret (Gitee personal access token with `projects` scope) to the GitHub repository for code/tag sync and release creation; `GITEE_USER` and `GITEE_REPO` are optional and default to `wuyi12138/LoRPoCTracker`. Gitee free-tier limits: 100 MB per attachment and 1 GB total attachments per repository.
 
