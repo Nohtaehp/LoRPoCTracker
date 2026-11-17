@@ -1,10 +1,10 @@
 {
-  "versionCode": 1000005,
-  "size": 71286607,
-  "package": "LoRPoCTracker-1.0.5-win-x64.zip",
-  "version": "1.0.5",
+  "minRuntime": "none",
+  "versionCode": 1000006,
+  "package": "LoRPoCTracker-1.0.6-win-x64.zip",
+  "sha256": "879D839736817E7F776D41D9B9CC6391BDA76D0EDB2842D99BAB1ACD9C5BAE80",
+  "notes": "详见 Release 页面：https://github.com/Nohtaehp/LoRPoCTracker/releases/tag/v1.0.6",
   "published": "2026-11-17",
-  "notes": "详见 Release 页面：https://github.com/Nohtaehp/LoRPoCTracker/releases/tag/v1.0.5",
-  "sha256": "6B6D7A513ED4D03911555061A4E67A9D961A099B2588FCA97252CD3F6BE519F4",
-  "minRuntime": "none"
+  "version": "1.0.6",
+  "size": 71286617
 }
