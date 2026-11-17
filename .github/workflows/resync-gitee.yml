@@ -74,7 +74,8 @@ jobs:
           fi
           echo "发行版 ID: ${RELEASE_ID}"
 
-          HTTP2=$(curl -s -o upload.json -w "%{http_code}" -X POST "${API}/releases/${RELEASE_ID}/attach_files" \
+          HTTP2=$(curl -s -o upload.json -w "%{http_code}" --max-time 900 \
+            -X POST "${API}/releases/${RELEASE_ID}/attach_files" \
             -F "access_token=${GITEE_TOKEN}" \
             -F "file=@${ZIP}")
           echo "上传附件 HTTP ${HTTP2}"

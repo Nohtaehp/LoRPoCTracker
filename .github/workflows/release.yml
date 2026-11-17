@@ -156,7 +156,7 @@ jobs:
             $release = Invoke-RestMethod -Uri "$api/releases/tags/$tag`?access_token=$($env:GITEE_TOKEN)"
           }
 
-          # 3) 上传安装包附件（Gitee 单附件上限 100MB）
+          # 3) 上传安装包附件（Gitee 单附件上限 100MB；海外 runner 可能很慢，限制 15 分钟）
           Invoke-RestMethod -Method Post -Uri "$api/releases/$($release.id)/attach_files" `
-            -Form @{ access_token = $env:GITEE_TOKEN; file = Get-Item $zip }
+            -Form @{ access_token = $env:GITEE_TOKEN; file = Get-Item $zip } -TimeoutSec 900
           Write-Host "已同步到 Gitee：https://gitee.com/$repo/releases/tag/$tag"
