@@ -53,9 +53,11 @@ $body = @{
     body             = "详见 Release 页面：https://github.com/Nohtaehp/LoRPoCTracker/releases/tag/$tag"
 } | ConvertTo-Json
 
+# 用 UTF-8 字节发送，避免中文描述在 Gitee 侧乱码
+$bodyBytes = [System.Text.Encoding]::UTF8.GetBytes($body)
 try {
-    $release = Invoke-RestMethod -Method Post -Uri "$api/releases" -Body $body `
-        -ContentType "application/json" -TimeoutSec 120
+    $release = Invoke-RestMethod -Method Post -Uri "$api/releases" -Body $bodyBytes `
+        -ContentType "application/json; charset=utf-8" -TimeoutSec 120
     Write-Host "已创建 Gitee 发行版 $tag"
 }
 catch {
