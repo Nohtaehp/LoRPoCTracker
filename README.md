@@ -46,7 +46,7 @@ dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj -c Release -r win-x64 --se
 
 ### 数据来源与版权
 
-卡牌名称、图片等游戏数据来自 Riot Games 的 Data Dragon 与本地游戏客户端。`COPYRIGHT` 内容为 `Copyright Riot Games, Inc. 2019`；补充图标来源见 `tools/icons/README.md`（CC BY 3.0）。本仓库 `docs/` 目录中的 99 系列卡牌清单与统计表为本地核对资料，不纳入版本库、不随发布包分发。
+卡牌名称、图片等游戏数据来自 Riot Games 的 Data Dragon 与本地游戏客户端。应用图标（悠米）取自 Riot Data Dragon 的官方英雄头像；`COPYRIGHT` 内容为 `Copyright Riot Games, Inc. 2019`；补充图标来源见 `tools/icons/README.md`（CC BY 3.0）。本仓库 `docs/` 目录中的 99 系列卡牌清单与统计表为本地核对资料，不纳入版本库、不随发布包分发。
 
 ---
 
@@ -90,4 +90,4 @@ Settings live in `data/config.json` next to the executable (API port, locale, ga
 
 ### Data sources & copyright
 
-Card names and images come from Riot Games' Data Dragon and the local game client. See `COPYRIGHT` (`Copyright Riot Games, Inc. 2019`) and `tools/icons/README.md` (CC BY 3.0) for details. The 99-series card checklists under `docs/` are local reference data and are intentionally excluded from this repository and release packages.
+Card names and images come from Riot Games' Data Dragon and the local game client. The app icon (Yuumi) is taken from Riot Data Dragon's official champion portrait. See `COPYRIGHT` (`Copyright Riot Games, Inc. 2019`) and `tools/icons/README.md` (CC BY 3.0) for details. The 99-series card checklists under `docs/` are local reference data and are intentionally excluded from this repository and release packages.

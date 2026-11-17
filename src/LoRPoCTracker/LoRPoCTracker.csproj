@@ -10,6 +10,7 @@
     <AssemblyName>LoRPoCTracker</AssemblyName>
     <RootNamespace>LoRPoCTracker</RootNamespace>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\..\tools\icons\app.ico</ApplicationIcon>
     <SatelliteResourceLanguages>zh-Hans;en</SatelliteResourceLanguages>
     <InvariantGlobalization>false</InvariantGlobalization>
     <Version Condition="'$(Version)' == ''">1.0.0</Version>
@@ -20,6 +21,9 @@
     <None Include="..\..\tools\frames\*.png" Link="tools\frames\%(Filename)%(Extension)"
           CopyToOutputDirectory="PreserveNewest" />
     <None Include="..\..\tools\icons\*.png" Link="tools\icons\%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" />
+    <!-- 应用图标：exe 图标由 ApplicationIcon 指定，窗口/托盘从输出目录读取 -->
+    <None Include="..\..\tools\icons\app.ico" Link="tools\icons\app.ico"
           CopyToOutputDirectory="PreserveNewest" />
     <!-- 游戏内独占卡（99 系列）的静态数据，首次启动拼图时读取 -->
     <None Include="..\..\tools\poc_extra_cards.json" Link="data\poc_extra_cards.json"

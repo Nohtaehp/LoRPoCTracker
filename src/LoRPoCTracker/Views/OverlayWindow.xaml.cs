@@ -1105,7 +1105,7 @@ public partial class OverlayWindow : Window
 
         _tray = new WinForms.NotifyIcon
         {
-            Icon = System.Drawing.SystemIcons.Application,
+            Icon = LoadAppIcon(),
             Text = "LoR 英雄之路记牌器",
             Visible = true,
             ContextMenuStrip = menu
@@ -1120,5 +1120,11 @@ public partial class OverlayWindow : Window
                 WindowEffects.ReassertTopmost(this);
             }
         };
+    }
+
+    private static System.Drawing.Icon LoadAppIcon()
+    {
+        var path = Path.Combine(AppContext.BaseDirectory, "tools", "icons", "app.ico");
+        return File.Exists(path) ? new System.Drawing.Icon(path) : System.Drawing.SystemIcons.Application;
     }
 }

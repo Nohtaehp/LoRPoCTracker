@@ -2,6 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Boss 牌库导出 / 导入"
+        Icon="pack://siteoforigin:,,,/tools/icons/app.ico"
         Width="920" Height="600"
         WindowStartupLocation="CenterScreen"
         Topmost="True"
