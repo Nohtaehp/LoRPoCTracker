@@ -1050,6 +1050,45 @@ public partial class OverlayWindow : Window
         };
         menu.Items.Add(autoCheck);
 
+        var contactMenu = new MenuItem { Header = "联系作者" };
+
+        var openRepo = new MenuItem { Header = "GitHub 仓库地址" };
+        openRepo.Click += (_, _) =>
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = $"https://github.com/{UpdateService.RepoOwner}/{UpdateService.RepoName}",
+                    UseShellExecute = true
+                });
+            }
+            catch
+            {
+                // 忽略浏览器启动失败
+            }
+        };
+        contactMenu.Items.Add(openRepo);
+
+        var joinQq = new MenuItem { Header = "QQ群：994989369（点击复制群号）" };
+        joinQq.Click += (_, _) =>
+        {
+            try
+            {
+                System.Windows.Clipboard.SetText("994989369");
+                System.Windows.MessageBox.Show("QQ群号已复制：994989369", "联系作者",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch
+            {
+                System.Windows.MessageBox.Show("QQ群：994989369", "联系作者",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        };
+        contactMenu.Items.Add(joinQq);
+
+        menu.Items.Add(contactMenu);
+
         menu.Items.Add(new Separator());
 
         var reload = new MenuItem { Header = "重新下载卡牌数据" };
