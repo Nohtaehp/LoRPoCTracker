@@ -30,6 +30,12 @@ public static class GameWindowLocator
     [DllImport("user32.dll")]
     private static extern bool GetWindowRect(IntPtr hWnd, out Rect rect);
 
+    /// <summary>DWM 扩展边框（不含窗口阴影），用于计算真正的视觉边缘。</summary>
+    private const int DwmwaExtendedFrameBounds = 9;
+
+    [DllImport("dwmapi.dll")]
+    private static extern int DwmGetWindowAttribute(IntPtr hwnd, int attribute, out Rect value, int size);
+
     [DllImport("user32.dll")]
     private static extern IntPtr MonitorFromWindow(IntPtr hwnd, uint flags);
 
@@ -59,6 +65,20 @@ public static class GameWindowLocator
                 if (!GetWindowRect(handle, out var rect)) continue;
                 if (rect.Width <= 0 || rect.Height <= 0) continue;
 
+                // GetWindowRect 含不可见阴影边框，优先使用 DWM 的可视边界，贴边才能贴紧
+                try
+                {
+                    if (DwmGetWindowAttribute(handle, DwmwaExtendedFrameBounds, out var frame,
+                            Marshal.SizeOf<Rect>()) == 0 && frame.Width > 0 && frame.Height > 0)
+                    {
+                        rect = frame;
+                    }
+                }
+                catch
+                {
+                    // dwmapi 不可用时退回 GetWindowRect
+                }
+
                 var monitor = MonitorFromWindow(handle, 2 /* MONITOR_DEFAULTTONEAREST */);
                 var info = new MonitorInfo { Size = Marshal.SizeOf<MonitorInfo>() };
                 var hasMonitor = monitor != IntPtr.Zero && GetMonitorInfo(monitor, ref info);
@@ -76,37 +96,55 @@ public static class GameWindowLocator
     }
 
     /// <summary>
-    /// 计算悬浮窗位置（DIP）。全屏时贴在屏幕左侧，窗口化时贴在游戏窗口右侧外侧。
+    /// 计算悬浮窗位置（DIP）：悬浮窗当前偏向游戏窗口哪一侧，就紧贴哪一侧；
+    /// 该侧放不下时自动换到另一侧，仍放不下则贴显示器边缘。间距为 0（紧贴）。
     /// </summary>
-    public static (double Left, double Top)? GetDockPosition(GameWindow game, double width, double height)
+    public static (double Left, double Top)? GetDockPosition(
+        GameWindow game, double width, double height, double currentLeft)
     {
         var scale = game.Scale <= 0 ? 1.0 : game.Scale;
         var window = game.Bounds;
         var monitor = game.MonitorBounds;
 
+        var overlayWidth = width * scale;
+        var overlayHeight = height * scale;
+        var overlayCenter = currentLeft * scale + overlayWidth / 2.0;
+        var gameCenter = (window.Left + window.Right) / 2.0;
+
         var isFullscreen = window.Width >= monitor.Width * 0.95 && window.Height >= monitor.Height * 0.95;
 
-        double left;
-        double top;
+        // 悬浮窗中心在游戏窗口中心左侧 => 贴左边，否则贴右边
+        var preferLeft = overlayCenter < gameCenter;
 
+        double left;
         if (isFullscreen)
         {
-            left = monitor.Left + 12;
-            top = monitor.Top + (monitor.Height - height * scale) / 2.0;
+            left = preferLeft ? monitor.Left : monitor.Right - overlayWidth;
         }
         else
         {
-            left = window.Right + 8;
-            // 右侧放不下时改放左侧
-            if (left + width * scale > monitor.Right - 8)
+            left = preferLeft
+                ? window.Left - overlayWidth
+                : window.Right;
+
+            // 贴这一侧会超出显示器时换到另一侧
+            if (left < monitor.Left || left + overlayWidth > monitor.Right)
             {
-                left = window.Left - width * scale - 8;
+                left = preferLeft
+                    ? window.Right
+                    : window.Left - overlayWidth;
             }
 
-            top = window.Top + 80;
+            // 另一侧也放不下时贴显示器边缘
+            if (left < monitor.Left) left = monitor.Left;
+            else if (left + overlayWidth > monitor.Right) left = monitor.Right - overlayWidth;
         }
 
-        top = Math.Max(monitor.Top + 8, Math.Min(top, monitor.Bottom - height * scale - 8));
+        var top = isFullscreen
+            ? monitor.Top + (monitor.Height - overlayHeight) / 2.0
+            : window.Top + 80;
+
+        top = Math.Max(monitor.Top, Math.Min(top, monitor.Bottom - overlayHeight));
 
         return (left / scale, top / scale);
     }

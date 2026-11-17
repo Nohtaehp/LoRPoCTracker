@@ -448,7 +448,7 @@ public partial class OverlayWindow : Window
         var game = GameWindowLocator.Find();
         if (game is null) return false;
 
-        var position = GameWindowLocator.GetDockPosition(game.Value, Width, Height);
+        var position = GameWindowLocator.GetDockPosition(game.Value, Width, Height, Left);
         if (position is null) return false;
 
         Left = position.Value.Left;
@@ -468,7 +468,7 @@ public partial class OverlayWindow : Window
             game.Value.Bounds.Width, game.Value.Bounds.Height);
         if (key == _lastDockKey) return;
 
-        var position = GameWindowLocator.GetDockPosition(game.Value, Width, Height);
+        var position = GameWindowLocator.GetDockPosition(game.Value, Width, Height, Left);
         if (position is null) return;
 
         Left = position.Value.Left;
@@ -612,7 +612,10 @@ public partial class OverlayWindow : Window
 
         _dragging = false;
         HeaderBar.ReleaseMouseCapture();
-        _config.AutoDock = false;
+
+        // 自动贴边开启时，按松手位置吸附到游戏窗口对应侧；关闭时保持自由摆放
+        if (_config.AutoDock) TryDock();
+
         SavePosition();
     }
 
