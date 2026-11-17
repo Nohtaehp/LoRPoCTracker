@@ -71,40 +71,68 @@ public sealed class UpdateService
         ];
     }
 
-    /// <summary>依次尝试各个源读取清单，返回第一个成功且格式有效的版本。</summary>
+    /// <summary>
+    /// 并行读取所有源，返回版本号最高的有效清单。
+    /// jsDelivr 对 @branch 的缓存最长 12 小时且忽略查询参数，若“第一个成功即返回”
+    /// 会拿到过期版本而漏掉更新，因此必须比较所有源后取最高版本。
+    /// </summary>
     public async Task<(UpdateInfo? Info, string Source, string Error)> CheckAsync(
         CancellationToken ct = default)
     {
         using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(8) };
         var errors = new List<string>();
 
-        foreach (var url in ManifestUrls())
-        {
-            ct.ThrowIfCancellationRequested();
-            try
-            {
-                var json = await http.GetStringAsync(url, ct).ConfigureAwait(false);
-                var info = JsonSerializer.Deserialize<UpdateInfo>(json, JsonOptions);
-                if (info is null || string.IsNullOrWhiteSpace(info.Package) ||
-                    UpdateInfo.ParseVersionCode(info.Version) <= 0)
-                {
-                    errors.Add("清单格式无效");
-                    continue;
-                }
+        var tasks = ManifestUrls().Select(url => FetchAsync(http, url, ct)).ToArray();
+        var results = await Task.WhenAll(tasks).ConfigureAwait(false);
 
-                return (info, SourceName(url), "");
-            }
-            catch (OperationCanceledException)
+        UpdateInfo? best = null;
+        var bestSource = "";
+
+        foreach (var (url, info, error) in results)
+        {
+            if (!string.IsNullOrEmpty(error))
             {
-                throw;
+                errors.Add($"{SourceName(url)}: {error}");
+                continue;
             }
-            catch (Exception ex)
+
+            if (info is null || string.IsNullOrWhiteSpace(info.Package) ||
+                UpdateInfo.ParseVersionCode(info.Version) <= 0)
             {
-                errors.Add($"{SourceName(url)}: {ex.Message}");
+                errors.Add($"{SourceName(url)}: 清单格式无效");
+                continue;
+            }
+
+            if (best is null ||
+                UpdateInfo.ParseVersionCode(info.Version) > UpdateInfo.ParseVersionCode(best.Version))
+            {
+                best = info;
+                bestSource = SourceName(url);
             }
         }
 
-        return (null, "", string.Join("；", errors));
+        return best is null
+            ? (null, "", string.Join("；", errors))
+            : (best, bestSource, "");
+    }
+
+    private static async Task<(string Url, UpdateInfo? Info, string Error)> FetchAsync(
+        HttpClient http, string url, CancellationToken ct)
+    {
+        try
+        {
+            var json = await http.GetStringAsync(url, ct).ConfigureAwait(false);
+            return (url, JsonSerializer.Deserialize<UpdateInfo>(json, JsonOptions), "");
+        }
+        catch (OperationCanceledException) when (ct.IsCancellationRequested)
+        {
+            // 用户主动取消才向上抛出；HttpClient 超时属于该源失败，继续使用其他源
+            throw;
+        }
+        catch (Exception ex)
+        {
+            return (url, null, ex.Message);
+        }
     }
 
     /// <summary>判断清单版本是否比当前程序更新。</summary>
