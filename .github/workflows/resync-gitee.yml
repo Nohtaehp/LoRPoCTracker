@@ -1,0 +1,85 @@
+name: Resync Gitee Release
+
+# 手动补发：把指定版本的 GitHub Release 附件补传到 Gitee（用于同步失败后修复）
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '版本号（如 1.0.4），需已存在对应 GitHub Release'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  resync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout tag
+        uses: actions/checkout@v5
+        with:
+          ref: v${{ inputs.version }}
+          fetch-depth: 0
+
+      - name: Push tag to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_USER: ${{ secrets.GITEE_USER }}
+          GITEE_REPO: ${{ secrets.GITEE_REPO }}
+        run: |
+          set -e
+          if [ -z "$GITEE_TOKEN" ]; then
+            echo "GITEE_TOKEN 未配置"
+            exit 1
+          fi
+          USER_NAME="${GITEE_USER:-wuyi12138}"
+          REPO="${GITEE_REPO:-wuyi12138/LoRPoCTracker}"
+          git remote add gitee "https://${USER_NAME}:${GITEE_TOKEN}@gitee.com/${REPO}.git"
+          git -c credential.helper= push gitee "HEAD:refs/tags/v${{ inputs.version }}" --force
+          echo "标签 v${{ inputs.version }} 已同步到 Gitee"
+
+      - name: Download GitHub release asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          mkdir -p dist
+          gh release download "v${{ inputs.version }}" --pattern "*.zip" --dir dist
+          ls -lh dist
+
+      - name: Create Gitee release and upload asset
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          VERSION: ${{ inputs.version }}
+          GITEE_REPO: ${{ secrets.GITEE_REPO }}
+        run: |
+          set -e
+          REPO="${GITEE_REPO:-wuyi12138/LoRPoCTracker}"
+          TAG="v${VERSION}"
+          API="https://gitee.com/api/v5/repos/${REPO}"
+          ZIP=$(ls dist/*.zip)
+          BODY="详见 Release 页面：https://github.com/${{ github.repository }}/releases/tag/${TAG}"
+
+          HTTP=$(curl -s -o create.json -w "%{http_code}" -X POST "${API}/releases" \
+            -H "Content-Type: application/json" \
+            -d "{\"access_token\":\"${GITEE_TOKEN}\",\"tag_name\":\"${TAG}\",\"name\":\"${TAG}\",\"target_commitish\":\"main\",\"body\":\"${BODY}\"}")
+          echo "创建发行版 HTTP ${HTTP}"
+          cat create.json
+
+          if [ "$HTTP" = "201" ] || [ "$HTTP" = "200" ]; then
+            RELEASE_ID=$(python3 -c "import json;print(json.load(open('create.json'))['id'])")
+          else
+            RELEASE_ID=$(curl -s "${API}/releases/tags/${TAG}?access_token=${GITEE_TOKEN}" \
+              | python3 -c "import json,sys;print(json.load(sys.stdin)['id'])")
+          fi
+          echo "发行版 ID: ${RELEASE_ID}"
+
+          HTTP2=$(curl -s -o upload.json -w "%{http_code}" -X POST "${API}/releases/${RELEASE_ID}/attach_files" \
+            -F "access_token=${GITEE_TOKEN}" \
+            -F "file=@${ZIP}")
+          echo "上传附件 HTTP ${HTTP2}"
+          cat upload.json
+          if [ "$HTTP2" != "201" ] && [ "$HTTP2" != "200" ]; then
+            exit 1
+          fi
+          echo "已同步：https://gitee.com/${REPO}/releases/tag/${TAG}"

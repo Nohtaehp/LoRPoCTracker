@@ -132,10 +132,13 @@ jobs:
           $branch = "main"
 
           # 1) 同步分支与标签（失败不阻断 GitHub 发布）
+          # Windows runner 上禁用 Git 凭据管理器，避免其尝交互认证导致超时
+          $env:GIT_TERMINAL_PROMPT = "0"
+          $env:GCM_INTERACTIVE = "never"
           git remote add gitee "https://${user}:$($env:GITEE_TOKEN)@gitee.com/$repo.git"
-          git push gitee "HEAD:$branch" --force
+          git -c credential.helper= push gitee "HEAD:$branch" --force
           if ($LASTEXITCODE -ne 0) { Write-Warning "Gitee 分支同步失败，跳过发行版上传"; exit 0 }
-          git push gitee "refs/tags/$tag" --force
+          git -c credential.helper= push gitee "refs/tags/$tag" --force
           if ($LASTEXITCODE -ne 0) { Write-Warning "Gitee 标签同步失败，跳过发行版上传"; exit 0 }
 
           # 2) 创建或复用发行版
