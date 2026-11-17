@@ -42,7 +42,9 @@ catch {
 }
 
 Write-Host "上传附件（约 71MB，请耐心等待）..."
-Invoke-RestMethod -Method Post -Uri "$api/releases/$($release.id)/attach_files" `
-    -Form @{ access_token = $Token; file = Get-Item $zip } -TimeoutSec 1800
+# 用系统自带 curl.exe 上传，兼容 Windows PowerShell 5.1 与 PowerShell 7
+& curl.exe -# --max-time 1800 -X POST "$api/releases/$($release.id)/attach_files" `
+    -F "access_token=$Token" -F "file=@$zip"
+if ($LASTEXITCODE -ne 0) { throw "附件上传失败（curl 退出码 $LASTEXITCODE）" }
 
 Write-Host "完成：https://gitee.com/$Repo/releases/tag/$tag"
