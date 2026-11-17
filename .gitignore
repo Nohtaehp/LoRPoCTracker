@@ -1,0 +1,26 @@
+## 构建产物
+**/bin/
+**/obj/
+publish/
+
+## 运行时数据与大体积资源（不入库）
+src/LoRPoCTracker/data/
+data/
+dist/
+
+## 游戏提取素材与图片（大图片/提取产物不入库；卡框与图标小图保留）
+tools/extract_*
+tools/inspect_*
+src/**/*.png
+data/**/*.png
+
+## 本地核对资料（仅保留在本地，不入库）
+docs/
+
+## 环境
+.vs/
+.vscode/
+*.user
+*.suo
+*.pdb
+*.cache

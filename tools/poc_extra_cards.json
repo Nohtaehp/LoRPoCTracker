@@ -1,0 +1,9549 @@
+[
+ {
+  "code": "00DE001",
+  "name": "羅倫特家族刀劍收藏家",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 2,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01DE003",
+  "internal_name": "Laurent Bladekeeper",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE002",
+  "name": "光輝打擊",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE018",
+  "internal_name": "Radiant Strike",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00DE003",
+  "name": "閃鋼捍衛者",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01DE009",
+  "internal_name": "Brightsteel Protector",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE004",
+  "name": "致命行動",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Decisive Action",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00DE005",
+  "name": "路西恩",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE022",
+  "internal_name": "Lucian",
+  "keyword_ids": [
+   0
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE005T1",
+  "name": "路西恩",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE022",
+  "internal_name": "Lucian2",
+  "keyword_ids": [
+   46,
+   58
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE006",
+  "name": "蓋倫",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 5,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "再生"
+  ],
+  "subtypes": [
+   "菁英"
+  ],
+  "dd_code": "01DE012",
+  "internal_name": "Garen",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE006T1",
+  "name": "蓋倫",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 6,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "再生"
+  ],
+  "subtypes": [
+   "菁英"
+  ],
+  "dd_code": "01DE012",
+  "internal_name": "Garen2",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE007",
+  "name": "光之哨兵姍娜",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE038",
+  "internal_name": "Senna, Sentinel of Light",
+  "keyword_ids": [
+   0,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE008",
+  "name": "稜光障壁",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE032",
+  "internal_name": "Prismatic Barrier",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00DE009",
+  "name": "拉克絲",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "光盾"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE042",
+  "internal_name": "Lux",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE009T1",
+  "name": "終極閃光",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "蠻力",
+   "飛逝",
+   "慢速"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE042T3",
+  "internal_name": "Final Spark",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00DE009T2",
+  "name": "拉克絲",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 6,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "光盾"
+  ],
+  "subtypes": [],
+  "dd_code": "01DE042",
+  "internal_name": "Lux2",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00DE039",
+  "name": "克勞菲爾德的希莉亞",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "菁英"
+  ],
+  "dd_code": "01DE039",
+  "internal_name": "Cithria of Cloudfield",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR001",
+  "name": "冰霜護盾",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Frost Shield",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00FR002",
+  "name": "艾伐洛森爐衛",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 5,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01FR041",
+  "internal_name": "Avarosan Hearthguard",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR003",
+  "name": "冰霜雪怪",
+  "kind": "unit",
+  "cost": 7,
+  "attack": 5,
+  "health": 5,
+  "speed": null,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Frostbound Yeti",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR004",
+  "name": "雪崩",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [
+   "慢速"
+  ],
+  "subtypes": [
+   "元素"
+  ],
+  "dd_code": "01FR020",
+  "internal_name": "Avalanche",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "00FR007",
+  "name": "玄妙石陣",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 0,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01FR033",
+  "internal_name": "Wyrding Stones",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR008",
+  "name": "狂爪虎王",
+  "kind": "unit",
+  "cost": 6,
+  "attack": 7,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "蠻力"
+  ],
+  "subtypes": [
+   "貓族"
+  ],
+  "dd_code": "01FR026",
+  "internal_name": "Alpha Wildclaw",
+  "keyword_ids": [
+   10
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR009",
+  "name": "戰鬥狂怒",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR005",
+  "internal_name": "Battle Fury",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00FR010",
+  "name": "遠古雪怪",
+  "kind": "unit",
+  "cost": 7,
+  "attack": 5,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "蠻力"
+  ],
+  "subtypes": [
+   "雪怪"
+  ],
+  "dd_code": "01FR031",
+  "internal_name": "Ancient Yeti",
+  "keyword_ids": [
+   10
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR011",
+  "name": "大力普羅",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "蠻力"
+  ],
+  "subtypes": [
+   "普羅"
+  ],
+  "dd_code": "01FR053",
+  "internal_name": "Mighty Poro",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR012",
+  "name": "血誓之盟",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR010",
+  "internal_name": "Bloodsworn Pledge",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00FR013",
+  "name": "催化魔方",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR012",
+  "internal_name": "Catalyst of Aeons",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00FR014",
+  "name": "艾希",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01FR038",
+  "internal_name": "Ashe",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR014T1",
+  "name": "水晶箭",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "慢速"
+  ],
+  "subtypes": [
+   "元素"
+  ],
+  "dd_code": "01FR038T3",
+  "internal_name": "Crystal Arrow",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00FR014T2",
+  "name": "艾希 急速冰凍",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [
+   "元素"
+  ],
+  "dd_code": "01FR038T1",
+  "internal_name": "Ashe's Flash Freeze",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00FR014T3",
+  "name": "艾希",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01FR038",
+  "internal_name": "Ashe2",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR015",
+  "name": "親切的小酒館老闆",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01FR050",
+  "internal_name": "Kindly Tavernkeeper",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR016",
+  "name": "厄努克牛群",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "厄努克"
+  ],
+  "dd_code": "01FR017",
+  "internal_name": "Troop of Elnuks",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR017",
+  "name": "泰達米爾",
+  "kind": "unit",
+  "cost": 8,
+  "attack": 8,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "蠻力"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR039",
+  "internal_name": "Tryndamere",
+  "keyword_ids": [
+   10
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR017T1",
+  "name": "泰達米爾",
+  "kind": "unit",
+  "cost": 8,
+  "attack": 8,
+  "health": 8,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "蠻力"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR039",
+  "internal_name": "Tryndamere2",
+  "keyword_ids": [
+   10,
+   18
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR017T2",
+  "name": "泰達米爾 戰鬥狂怒",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR039T1",
+  "internal_name": "Tryndamere's Battle Fury",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00FR018",
+  "name": "布郎姆",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 0,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "挑戰者",
+   "再生"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR009",
+  "internal_name": "Braum",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR018T1",
+  "name": "布郎姆",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 0,
+  "health": 7,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "挑戰者",
+   "再生"
+  ],
+  "subtypes": [],
+  "dd_code": "01FR009",
+  "internal_name": "Braum2",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR019",
+  "name": "厄努克公牛",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 4,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "厄努克"
+  ],
+  "dd_code": "01FR027",
+  "internal_name": "Bull Elnuk",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR020",
+  "name": "潛行狼",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "挑戰者"
+  ],
+  "subtypes": [
+   "犬族"
+  ],
+  "dd_code": "01FR049",
+  "internal_name": "Stalking Wolf",
+  "keyword_ids": [
+   50
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00FR020T1",
+  "name": "雪兔",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01FR049T1",
+  "internal_name": "Snow Hare",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO001",
+  "name": "暗影之魔",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "閃靈"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO013",
+  "internal_name": "Shadow Fiend",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO002",
+  "name": "那歐劫匪",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 1,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01IO052",
+  "internal_name": "Navori Highwayman",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO002T1",
+  "name": "那歐竊匪",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 1,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01IO052T1",
+  "internal_name": "Navori Brigand",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO003",
+  "name": "移形換影",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "快速"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO039",
+  "internal_name": "Shadowshift",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00IO004",
+  "name": "重生儀式",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO001",
+  "internal_name": "Ritual of Renewal",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "00IO005",
+  "name": "林地瞭望兵",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "約德爾人"
+  ],
+  "dd_code": "01IO036",
+  "internal_name": "Greenglade Lookout",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO006",
+  "name": "犽宿",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO015",
+  "internal_name": "Yasuo",
+  "keyword_ids": [
+   0,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO006T1",
+  "name": "犽宿 鋼鐵暴雪",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "快速",
+  "keywords": [
+   "快速"
+  ],
+  "subtypes": [
+   "元素"
+  ],
+  "dd_code": "01IO015T2",
+  "internal_name": "Yasuo's Steel Tempest",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "00IO006T2",
+  "name": "犽宿",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO015",
+  "internal_name": "Yasuo2",
+  "keyword_ids": [
+   0,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO006T3",
+  "name": "犽宿",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO015",
+  "internal_name": "Yasuo B1",
+  "keyword_ids": [
+   0,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO007",
+  "name": "四尾旋刃者",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 1,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [
+   "約德爾人"
+  ],
+  "dd_code": "01IO008",
+  "internal_name": "Fae Bladetwirler",
+  "keyword_ids": [
+   0,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO008",
+  "name": "蒼天龍",
+  "kind": "unit",
+  "cost": 7,
+  "attack": 6,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "隱密"
+  ],
+  "subtypes": [
+   "龍族"
+  ],
+  "dd_code": "01IO030",
+  "internal_name": "The Empyrean",
+  "keyword_ids": [
+   12
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO009",
+  "name": "靈巧普羅",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [
+   "普羅"
+  ],
+  "dd_code": "01IO005",
+  "internal_name": "Nimble Poro",
+  "keyword_ids": [
+   0
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO010",
+  "name": "鋼鐵暴雪",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "快速",
+  "keywords": [
+   "快速"
+  ],
+  "subtypes": [
+   "元素"
+  ],
+  "dd_code": "01IO046",
+  "internal_name": "Steel Tempest",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "00IO011",
+  "name": "劫",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO009",
+  "internal_name": "Zed",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO011T1",
+  "name": "劫",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO009",
+  "internal_name": "Zed2",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO011T2",
+  "name": "疾風殘影",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "閃靈"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO009T1",
+  "internal_name": "Living Shadow",
+  "keyword_ids": [
+   42
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO012",
+  "name": "雙重戒律",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO012",
+  "internal_name": "Twin Disciplines",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00IO012T1",
+  "name": "堅韌之戒律",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO012T2",
+  "internal_name": "Discipline of Fortitude",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00IO012T2",
+  "name": "力量之戒律",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO012T1",
+  "internal_name": "Discipline of Force",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00IO013",
+  "name": "面具看守者",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01IO020",
+  "internal_name": "Keeper of Masks",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO014",
+  "name": "追風者．犽凝",
+  "kind": "unit",
+  "cost": 6,
+  "attack": 4,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01IO056",
+  "internal_name": "Yone, Windchaser",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO014T1",
+  "name": "震撼雙擊",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO056T1",
+  "internal_name": "Staggering Strikes",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "00IO015",
+  "name": "迅腿米娜",
+  "kind": "unit",
+  "cost": 9,
+  "attack": 6,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO033",
+  "internal_name": "Minah Swiftfoot",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO015T1",
+  "name": "飛天三連踢",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO033T1",
+  "internal_name": "Skyward Strikes",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "00IO016",
+  "name": "愛歐尼亞的意志",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "快速",
+  "keywords": [
+   "快速"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO002",
+  "internal_name": "Will of Ionia",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "00IO017",
+  "name": "鱗甲四不像",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "爬蟲族"
+  ],
+  "dd_code": "01IO028",
+  "internal_name": "Scaled Snapper",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO017T1",
+  "name": "鱗甲四不像",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 5,
+  "health": 2,
+  "speed": null,
+  "art": false,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "爬蟲族"
+  ],
+  "dd_code": "01IO028",
+  "internal_name": "Scaled SnapperP",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO017T2",
+  "name": "鱗甲四不像",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 5,
+  "speed": null,
+  "art": false,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "爬蟲族"
+  ],
+  "dd_code": "01IO028",
+  "internal_name": "Scaled SnapperH",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO018",
+  "name": "武術學徒",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01IO042",
+  "internal_name": "Sparring Student",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO019",
+  "name": "迅腿米娜",
+  "kind": "unit",
+  "cost": 9,
+  "attack": 6,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO033",
+  "internal_name": "Minah SwiftfootB",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO019T1",
+  "name": "飛天三連踢",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO033T1",
+  "internal_name": "Skyward StrikesB",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "00IO020",
+  "name": "追風者．犽凝",
+  "kind": "unit",
+  "cost": 6,
+  "attack": 4,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01IO056",
+  "internal_name": "YoneB, Windchaser",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00IO020T1",
+  "name": "震撼雙擊",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "01IO056T1",
+  "internal_name": "Staggering StrikesB",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "00NX001",
+  "name": "達瑞斯",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 5,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "蠻力"
+  ],
+  "subtypes": [],
+  "dd_code": "01NX038",
+  "internal_name": "Darius",
+  "keyword_ids": [
+   10
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00NX002",
+  "name": "達瑞文",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01NX020",
+  "internal_name": "Draven",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00NX003",
+  "name": "競技場主持人",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 0,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01NX007",
+  "internal_name": "Arena Battlecaster",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00NX004",
+  "name": "黏人普羅",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "挑戰者"
+  ],
+  "subtypes": [
+   "普羅"
+  ],
+  "dd_code": "01NX034",
+  "internal_name": "Affectionate Poro",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00NX005",
+  "name": "軍團後衛",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "無法進行格擋"
+  ],
+  "subtypes": [],
+  "dd_code": "01NX012",
+  "internal_name": "Legion Rearguard",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00NX006",
+  "name": "群蛛之主",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "蜘蛛"
+  ],
+  "dd_code": "01NX023",
+  "internal_name": "Arachnoid Host",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00NX007",
+  "name": "諾克薩斯",
+  "kind": "unit",
+  "cost": 13,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Noxus Blank",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ001",
+  "name": "自我強化科學家",
+  "kind": "unit",
+  "cost": 6,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01PZ013",
+  "internal_name": "Augmented Experimentor",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ001T1",
+  "name": "貿然研究",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ013T1",
+  "internal_name": "Reckless Research",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "00PZ002",
+  "name": "皮爾托福强化",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Piltovan Powerup",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00PZ003",
+  "name": "方頭機器人",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 0,
+  "health": 5,
+  "speed": null,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Crackling Platbot",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ004",
+  "name": "武趣工匠",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "Missing Translation"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ051",
+  "internal_name": "Funsmith",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ005",
+  "name": "伊澤瑞爾",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 1,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "隱密"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ036",
+  "internal_name": "Ezreal",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ005T1",
+  "name": "祕術射擊",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [
+   "快速"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ052",
+  "internal_name": "Mystic Shot",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "00PZ005T2",
+  "name": "伊澤瑞爾",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "隱密"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ036",
+  "internal_name": "Ezreal2",
+  "keyword_ids": [
+   46,
+   56
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ005T3",
+  "name": "伊澤瑞爾",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 1,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "隱密"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ036",
+  "internal_name": "Ezreal B1",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ006",
+  "name": "精準彈幕",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [
+   "慢速"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ004",
+  "internal_name": "Trueshot Barrage",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "00PZ007",
+  "name": "雜物堆",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ001",
+  "internal_name": "Rummage",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00PZ008",
+  "name": "進步日！",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ049",
+  "internal_name": "Progress Day!",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00PZ009",
+  "name": "漢默丁格",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 1,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "BandleCity",
+  "region_refs": [
+   "BandleCity",
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "灌輸"
+  ],
+  "subtypes": [
+   "約德爾人"
+  ],
+  "dd_code": "01PZ056",
+  "internal_name": "Heimerdinger",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ009T1",
+  "name": "扳手機器人",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Wrenchbot",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ009T2",
+  "name": "漢默丁格",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 1,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "BandleCity",
+  "region_refs": [
+   "BandleCity",
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "灌輸"
+  ],
+  "subtypes": [
+   "約德爾人"
+  ],
+  "dd_code": "01PZ056",
+  "internal_name": "Heimer B1",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ010",
+  "name": "漢默丁格",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "BandleCity",
+  "region_refs": [
+   "BandleCity",
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "灌輸"
+  ],
+  "subtypes": [
+   "約德爾人"
+  ],
+  "dd_code": "01PZ056",
+  "internal_name": "Heimerdinger2",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ011",
+  "name": "聰慧學者",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01PZ055",
+  "internal_name": "Astute Academic",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ012",
+  "name": "吉茵珂絲",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ040",
+  "internal_name": "Jinx",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ012T1",
+  "name": "超威能死亡火箭！",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [
+   "慢速",
+   "飛逝"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ040T2",
+  "internal_name": "Super Mega Death Rocket!",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "00PZ012T2",
+  "name": "吉茵珂絲",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ040",
+  "internal_name": "Jinx2",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ012T3",
+  "name": "吉茵珂絲",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ040",
+  "internal_name": "Jinx B1",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ013",
+  "name": "極度興奮",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Amped Up",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "00PZ014",
+  "name": "叉狀閃電",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Forked Lightning",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "00PZ015",
+  "name": "機械暴龍",
+  "kind": "unit",
+  "cost": 6,
+  "attack": 6,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "機械"
+  ],
+  "dd_code": "01PZ015",
+  "internal_name": "T-Hex",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ016",
+  "name": "普羅機器人",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Porobot",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ017",
+  "name": "咒能高漲",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "疾速"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ050",
+  "internal_name": "Rising Spell Force",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "00PZ018",
+  "name": "化學龐克撕裂樂手",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 4,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01PZ044",
+  "internal_name": "Chempunk Shredder",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ018T1",
+  "name": "魔音穿腦",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ044T2",
+  "internal_name": "Face-Melter",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "00PZ019",
+  "name": "空白",
+  "kind": "unit",
+  "cost": 13,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Blank",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ021",
+  "name": "廣場守護者",
+  "kind": "unit",
+  "cost": 10,
+  "attack": 6,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "快速攻擊"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ006",
+  "internal_name": "Plaza Guardian",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00PZ022",
+  "name": "精準彈幕",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [
+   "慢速"
+  ],
+  "subtypes": [],
+  "dd_code": "01PZ004",
+  "internal_name": "Trueshot Barrageb",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "00SI001",
+  "name": "瑟雷西",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 3,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "挑戰者"
+  ],
+  "subtypes": [],
+  "dd_code": "01SI052",
+  "internal_name": "Thresh",
+  "keyword_ids": [
+   46,
+   50
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI001T1",
+  "name": "瑟雷西",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 4,
+  "health": 7,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "挑戰者"
+  ],
+  "subtypes": [],
+  "dd_code": "01SI052",
+  "internal_name": "Thresh2",
+  "keyword_ids": [
+   46,
+   50
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI003",
+  "name": "普通蜘蛛",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "蜘蛛"
+  ],
+  "dd_code": "01NX055",
+  "internal_name": "House Spider",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI004",
+  "name": "伊莉絲",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "威嚇"
+  ],
+  "subtypes": [
+   "蜘蛛"
+  ],
+  "dd_code": "01SI053",
+  "internal_name": "Elise",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI004T1",
+  "name": "小蜘蛛",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "蜘蛛"
+  ],
+  "dd_code": "01SI002",
+  "internal_name": "Spiderling",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI004T2",
+  "name": "蜘蛛女王伊莉絲",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "威嚇",
+   "挑戰者",
+   "Missing Translation"
+  ],
+  "subtypes": [
+   "蜘蛛"
+  ],
+  "dd_code": "01SI053T2",
+  "internal_name": "Elise2",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI005",
+  "name": "受詛咒的看守人",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "無法進行格擋",
+   "遺願"
+  ],
+  "subtypes": [],
+  "dd_code": "01SI048",
+  "internal_name": "Cursed Keeper",
+  "keyword_ids": [
+   1,
+   28
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI005T1",
+  "name": "出柙邪靈",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "dd_code": "01SI048T1",
+  "internal_name": "Escaped Abomination",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "00SI006",
+  "name": "普通蜘蛛",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "蜘蛛"
+  ],
+  "dd_code": "01NX055",
+  "internal_name": "House Spider B",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "06FR025",
+  "name": "時間與奉獻",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "專注",
+  "keywords": [
+   "專注"
+  ],
+  "subtypes": [],
+  "dd_code": "06FR012T1"
+ },
+ {
+  "code": "06RU007",
+  "name": "賈克斯",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [
+   "武器大師"
+  ],
+  "dd_code": "06RU008"
+ },
+ {
+  "code": "06RU027T1",
+  "name": "冥血奴僕",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "",
+  "keywords": [
+   "無法進行格擋"
+  ],
+  "subtypes": [
+   "邪教徒"
+  ],
+  "dd_code": "06SH004T1"
+ },
+ {
+  "code": "98BC001",
+  "name": "虛假友誼",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 1,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "BandleCity",
+  "region_refs": [
+   "BandleCity"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "False Friend",
+  "keyword_ids": [
+   18,
+   144
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98BW002",
+  "name": "淺灘水妖",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 1,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Shallows Siren",
+  "keyword_ids": [
+   12
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98BW003",
+  "name": "命運鬼牌",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Wild Card",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98BW004",
+  "name": "金色卡牌",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "02BW026T5",
+  "rarity_id": 5,
+  "internal_name": "Gold Card",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98BW005",
+  "name": "藍色卡牌",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "02BW026T2",
+  "rarity_id": 5,
+  "internal_name": "Blue Card",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98BW006",
+  "name": "紅色卡牌",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "技能",
+  "keywords": [
+   "技能"
+  ],
+  "subtypes": [],
+  "dd_code": "02BW026T4",
+  "rarity_id": 5,
+  "internal_name": "Red Card",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98DE001",
+  "name": "惡毒刺探者",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Baleful Seeker",
+  "keyword_ids": [
+   50
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98DE004",
+  "name": "一鳴驚人",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Breakout!",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98FR003",
+  "name": "戰爭號令",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "專注",
+  "keywords": [],
+  "subtypes": [],
+  "speed_confirmed": true,
+  "rarity_id": 5,
+  "internal_name": "Call to Arms",
+  "keyword_ids": [
+   143
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_focus"
+ },
+ {
+  "code": "98FR016",
+  "name": "暗冰幻影",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Dark Ice Apparition",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR017",
+  "name": "諾泰傀儡師",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Notai Puppeteers",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR018",
+  "name": "深淵雪怪",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Abyssal Yeti",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR019",
+  "name": "弗雷爾卓德傳說守護者",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Freljordian Lorekeeper",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR020",
+  "name": "雪球連擊",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Snowball Barrage",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98FR021",
+  "name": "努努和威朗普",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 1,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Nunu & Willump",
+  "keyword_ids": [
+   69
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR021T1",
+  "name": "努努和威朗普",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Nunu & Willump2",
+  "keyword_ids": [
+   69,
+   10,
+   100
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR021T2",
+  "name": "努努和威朗普的暴雪",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Nunu & Willump's Champ Spell",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98FR022",
+  "name": "春融雪怪",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Spring Thaw Yeti",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR023",
+  "name": "雪人努努與噗朗普",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 2,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Snownu & Ballump",
+  "keyword_ids": [
+   28
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR024",
+  "name": "暴雪",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "speed_confirmed": true,
+  "internal_name": "Blizzard",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98FR025",
+  "name": "雪球",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Snowball",
+  "keyword_ids": [
+   50,
+   42
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98FR028",
+  "name": "精通四形之喚",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Stance Swap PLUS",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98FR028T1",
+  "name": "精通狂爪虎形意",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Wildclaw Stance PLUS",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98FR028T2",
+  "name": "精通公羊形意",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Ram Stance PLUS",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98FR028T3",
+  "name": "精通野豬形意",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Boar Stance PLUS",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98FR028T4",
+  "name": "精通巨熊形意",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Bear Stance PLUS",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98IO063",
+  "name": "影襲",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Shadow Dash",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98MT009",
+  "name": "星體擴散",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Targon",
+  "region_refs": [
+   "Targon"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Astral Diffusion",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98NE001",
+  "name": "額外鍍層",
+  "kind": "landmark",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 7,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Extra Plating",
+  "keyword_ids": [
+   46,
+   106,
+   142
+  ],
+  "tags": [],
+  "type_id": 7,
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98NX003",
+  "name": "安比薩",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Ambessa",
+  "keyword_ids": [
+   50,
+   22,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98NX003T1",
+  "name": "安比薩",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 6,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Ambessa2",
+  "keyword_ids": [
+   50,
+   22,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98NX003T2",
+  "name": "安比薩的公開處刑",
+  "kind": "spell",
+  "cost": 6,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Ambessa's Public Execution",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98NX004",
+  "name": "公開處刑",
+  "kind": "spell",
+  "cost": 6,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "speed_confirmed": true,
+  "rarity_id": 3,
+  "internal_name": "Public Execution",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98NX005",
+  "name": "暗襲",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Cunning Sweep",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98NX006",
+  "name": "裂斬",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Sundering Slam",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98NX007",
+  "name": "徵兵",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Conscription",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98NX008",
+  "name": "齜牙咧嘴",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Rictus",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98NX009",
+  "name": "梅狄",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 2,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Maddie Nolen",
+  "keyword_ids": [
+   164,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ001",
+  "name": "沃維克",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Warwick",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ001T1",
+  "name": "沃維克的血跡獵蹤",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Warwick's Blood Hunt",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98PZ001T2",
+  "name": "沃維克",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 5,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Warwick2",
+  "keyword_ids": [
+   0,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ001T4",
+  "name": "血跡獵蹤",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Blood Hunt",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98PZ004",
+  "name": "王牌射手",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Ace in the Hole",
+  "keyword_ids": [
+   115,
+   111
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98PZ005",
+  "name": "叱返金身",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Rebuttal",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98PZ006",
+  "name": "梅爾",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Mel",
+  "keyword_ids": [
+   46,
+   100
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ006T1",
+  "name": "梅爾",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Mel2",
+  "keyword_ids": [
+   46,
+   100
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ006T2",
+  "name": "絢輝彈幕",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Radiant Volley",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98PZ006T3",
+  "name": "梅爾的叱返金身",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Mel's Rebuttal",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98PZ007",
+  "name": "艾洛拉",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Elora",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ008",
+  "name": "烈陽羅網",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Solar Snare",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98PZ009",
+  "name": "以防萬一",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Lest",
+  "keyword_ids": [
+   28
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ013",
+  "name": "神恩浩蕩",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Divine Grace",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98PZ014",
+  "name": "生化科技針嘴",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 0,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Chemtech Mozzie",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98PZ015",
+  "name": "實驗體二號",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 4,
+  "speed": null,
+  "art": false,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Test Subject #2",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98RU001",
+  "name": "萬紫千紅",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Pop Blossom",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98RU003",
+  "name": "群鴉風暴",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "speed_confirmed": true,
+  "rarity_id": 2,
+  "internal_name": "Crowstorm",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98RU004",
+  "name": "費德提克",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 7,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Fiddlesticks",
+  "keyword_ids": [
+   18
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98RU004T1",
+  "name": "費德提克",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 8,
+  "health": 7,
+  "speed": null,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Fiddlesticks2",
+  "keyword_ids": [
+   18
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98RU004T2",
+  "name": "費德提克 群鴉風暴",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "Fiddlesticks' Crowstorm",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98RU004T3",
+  "name": "夢魘",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 8,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "陷阱",
+  "keywords": [],
+  "subtypes": [],
+  "speed_confirmed": true,
+  "rarity_id": 5,
+  "internal_name": "Nightmare",
+  "keyword_ids": [
+   57
+  ],
+  "tags": [],
+  "type_id": 8,
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98RU005",
+  "name": "疾風龍魂",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Cloud Dragon Soul",
+  "keyword_ids": [
+   171
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98RU006",
+  "name": "山岳龍魂",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Mountainous Dragon Soul",
+  "keyword_ids": [
+   171
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98RU007",
+  "name": "汪洋龍魂",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Oceanic Dragon Soul",
+  "keyword_ids": [
+   171
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98RU008",
+  "name": "生化科技龍魂",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Chemtech Dragon Soul",
+  "keyword_ids": [
+   171
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98RU009",
+  "name": "海克斯科技龍魂",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Hextech Dragon Soul",
+  "keyword_ids": [
+   171
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98RU010",
+  "name": "赤燄龍魂",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Infernal Dragon Soul",
+  "keyword_ids": [
+   171
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "98RU011",
+  "name": "無盡碎片",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Fragment of Infinity",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98RU014",
+  "name": "巴龍納什",
+  "kind": "unit",
+  "cost": 9,
+  "attack": 2,
+  "health": 200,
+  "speed": null,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Baron Nashor",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98RU015",
+  "name": "初級英雄複製裝置",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Lesser Champion Duplicator",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98RU016",
+  "name": "英雄複製裝置",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Champion Duplicator",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98SB001",
+  "name": "蟄影騙徒",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Shadow Swindler",
+  "keyword_ids": [
+   100,
+   12
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB002",
+  "name": "魅影搗蛋鬼魯魯",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Roo, Playful Prankster",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB003",
+  "name": "我抓！",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Yoink!",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB004",
+  "name": "金針菇奶奶",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 4,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Grandma Enoki",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB006",
+  "name": "蘑菇爆破！",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Shroomsplosion!",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB007",
+  "name": "魅火",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Fox-Fire",
+  "keyword_ids": [
+   42
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB008",
+  "name": "最後恩典",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Final Blessing",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB009",
+  "name": "心平氣和",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Serene Spirit",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB010",
+  "name": "花瓣命數",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Petals of Fate",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB010T1",
+  "name": "花瓣命數",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Petals of Fate B",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB010T2",
+  "name": "花瓣命數",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Petals of Fate A",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB011",
+  "name": "銷魂",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 1,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Essence Thief",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB012",
+  "name": "飛仙",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Spirit Rush",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98SB012T1",
+  "name": "飛仙",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Spirit Rush A",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98SB012T2",
+  "name": "飛仙",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Spirit Rush B",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98SB013",
+  "name": "靈花祭 伊芙琳",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 1,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBEvelynn",
+  "keyword_ids": [
+   50,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB013T1",
+  "name": "伊芙琳的靈魂擁抱",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Evelynn's Spirit's Embrace",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB013T2",
+  "name": "噬哀者",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 2,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBEvelynn2",
+  "keyword_ids": [
+   50,
+   46,
+   100
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB014",
+  "name": "靈魂擁抱",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Spirit's Embrace",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB015",
+  "name": "吸魂凝視",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "專注",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Beckoning Gaze",
+  "keyword_ids": [
+   143
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_focus"
+ },
+ {
+  "code": "98SB016",
+  "name": "神祕投機分子",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 0,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Occult Opportunist",
+  "keyword_ids": [
+   3
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB017",
+  "name": "命運祈求者",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Fated Supplicant",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB018",
+  "name": "著迷",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Bewitch",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SB019",
+  "name": "幻玉",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Orb of Deception",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB019T1",
+  "name": "幻玉",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Orb of Deception",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB019T2",
+  "name": "幻玉",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Orb of Deception",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB020",
+  "name": "靈花祭 阿璃",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 1,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBAhri",
+  "keyword_ids": [
+   12
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB020T1",
+  "name": "阿璃的幻玉",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Ahri's Orb of Deception",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB020T2",
+  "name": "狐仙",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 2,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "SBAhri2",
+  "keyword_ids": [
+   12
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB020T3",
+  "name": "阿璃的幻玉",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Ahri's Orb of Deception A",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB020T4",
+  "name": "阿璃的幻玉",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Ahri's Orb of Deception B",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB021",
+  "name": "狂熱釋放",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Unleashed Frenzy",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98SB024",
+  "name": "靈魂壯志者",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Spirit Aspirant",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB025",
+  "name": "墮落門徒",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Fallen Student",
+  "keyword_ids": [
+   28
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB025T2",
+  "name": "悲傷教誨",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Grief's Lesson",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB026",
+  "name": "熟能生巧",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Practice Makes Perfect",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB027",
+  "name": "奇才的陰影",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "The Prodigy's Shade",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB030",
+  "name": "靈花祭 易大師",
+  "kind": "unit",
+  "cost": 8,
+  "attack": 5,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBMasterYi",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB030T1",
+  "name": "易大師的熟能生巧",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Master Yi's Practice Makes Perfect",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB030T2",
+  "name": "孤寂大師",
+  "kind": "unit",
+  "cost": 8,
+  "attack": 6,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBMasterYi2",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB030T3",
+  "name": "劍士鬼魅",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Blademaster's Phantom",
+  "keyword_ids": [
+   42
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB031",
+  "name": "靈花祭 提摩",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBTeemo",
+  "keyword_ids": [
+   12,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB031T1",
+  "name": "提摩的蘑菇爆破！",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Teemo's Shroomsplosion!",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB031T2",
+  "name": "惡作劇之王",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBTeemo2",
+  "keyword_ids": [
+   12,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB032",
+  "name": "掀起風暴",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Unleash the Storm",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SB033",
+  "name": "昔日戰影",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Shades of Battles Past",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB035",
+  "name": "疾風之刃賢者",
+  "kind": "unit",
+  "cost": 7,
+  "attack": 2,
+  "health": 7,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Stormblade Sage",
+  "keyword_ids": [
+   50
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB036",
+  "name": "與靈交流",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Commune With Spirits",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB037",
+  "name": "靈花祭 犽宿",
+  "kind": "unit",
+  "cost": 15,
+  "attack": 7,
+  "health": 7,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBYasuo",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB037T1",
+  "name": "兄友弟恭",
+  "kind": "unit",
+  "cost": 15,
+  "attack": 8,
+  "health": 8,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBYasuo2",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB037T2",
+  "name": "犽宿遺願",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Yasuo's Last Breath",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SB038",
+  "name": "靈魂飛昇",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Arisen Soul",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB039",
+  "name": "遺願",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Last Breath",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SB040",
+  "name": "舞動箭矢",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Dance of Arrows",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB040T1",
+  "name": "舞動箭矢",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Dance of Arrows B",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB040T2",
+  "name": "舞動箭矢",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Dance of Arrows A",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB041",
+  "name": "野獸",
+  "kind": "unit",
+  "cost": 6,
+  "attack": 8,
+  "health": 8,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "The Beast",
+  "keyword_ids": [
+   42
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB042",
+  "name": "冥府先知",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 0,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Death's Seer",
+  "keyword_ids": [
+   69
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB043",
+  "name": "飛逝之靈",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Fleeting Spirits",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB044",
+  "name": "奪命者",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBKindred",
+  "keyword_ids": [
+   46,
+   50
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB044T1",
+  "name": "靈花祭 鏡爪",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 20,
+  "health": 20,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 4,
+  "internal_name": "SBKindred2",
+  "keyword_ids": [
+   50
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB044T2",
+  "name": "鏡爪的舞動箭矢",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Kindred's Dance of Arrows B",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB044T3",
+  "name": "鏡爪的舞動箭矢",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Kindred's Dance of Arrows A",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB044T4",
+  "name": "鏡爪的舞動箭矢",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Kindred's Dance of Arrows",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SB045",
+  "name": "復仇妖靈",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Vengeful Imp",
+  "keyword_ids": [
+   28,
+   166
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB046",
+  "name": "溫馴野獸",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 2,
+  "health": 6,
+  "speed": null,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Patient Beast",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SB047",
+  "name": "野獸狂熱",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "SpiritBlossom",
+  "region_refs": [
+   "SpiritBlossom"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Beast's Frenzy",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "98SH001",
+  "name": "潛伏噩夢",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Lurking Nightmare",
+  "keyword_ids": [
+   28
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SH001T1",
+  "name": "遺忘之懼",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 6,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Forgotten Terror",
+  "keyword_ids": [
+   50,
+   10
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SH002",
+  "name": "寶庫",
+  "kind": "landmark",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 7,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "The Vault",
+  "keyword_ids": [
+   46,
+   106,
+   142
+  ],
+  "tags": [],
+  "type_id": 7,
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SH004",
+  "name": "招魂儀式",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Rite of Haunting",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SH004T1",
+  "name": "招魂儀式A",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Rite of Haunting A",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SH004T2",
+  "name": "招魂儀式B",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Rite of Haunting B",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SH005",
+  "name": "魔導法典",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Magus Codex",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SH006",
+  "name": "主宰儀式",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "快速"
+  ],
+  "subtypes": [],
+  "dd_code": "04SH018",
+  "rarity_id": 5,
+  "internal_name": "Ascended Rite of Dominance",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SH007",
+  "name": "魔導祭典",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "慢速"
+  ],
+  "subtypes": [],
+  "dd_code": "05SH007",
+  "rarity_id": 5,
+  "internal_name": "Ascended Rite of the Arcane",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SH008",
+  "name": "招魂儀式",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Ascended Rite of Haunting",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SH009",
+  "name": "相消儀式",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "快速"
+  ],
+  "subtypes": [],
+  "dd_code": "04SH059T2",
+  "rarity_id": 5,
+  "internal_name": "Ascended Rite of Negation",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SH010",
+  "name": "傳承儀式",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "專注"
+  ],
+  "subtypes": [],
+  "dd_code": "06SH048",
+  "rarity_id": 5,
+  "internal_name": "Ascended Rite of Passage",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SH011",
+  "name": "呼喚儀式",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [
+   "慢速"
+  ],
+  "subtypes": [],
+  "dd_code": "04SH121",
+  "rarity_id": 5,
+  "internal_name": "Ascended Rite of Calling",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SH012",
+  "name": "泯滅儀式",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Ascended Rite of Cursing",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SI002",
+  "name": "駭懼收割",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Reap",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SI002T1",
+  "name": "駭懼收割",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "ReapB",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SI002T2",
+  "name": "駭懼收割",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "ReapA",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "98SI003",
+  "name": "恐怖收割者",
+  "kind": "unit",
+  "cost": 8,
+  "attack": 5,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Dread Harvester",
+  "keyword_ids": [
+   18,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "98SI006",
+  "name": "維迦專屬聖物",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Veigar Signature Relic",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SI007",
+  "name": "維迦星力6",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Veigar Star Power 6",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "98SI008",
+  "name": "維迦星力4",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "ShadowIsles",
+  "region_refs": [
+   "ShadowIsles"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Veigar Star Power 4",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99BC001",
+  "name": "班德爾平衡",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "BandleCity",
+  "region_refs": [
+   "BandleCity"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Bandle Balance",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99BW001",
+  "name": "海上救援",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Hooked Help",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99BW002",
+  "name": "拳頭外交",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Dust Up Diplomacy",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99BW003",
+  "name": "不法之徒",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Freebooter",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99BW004",
+  "name": "溺流劫掠者",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Drowned Marauder",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99BW004T1",
+  "name": "叛變",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": true,
+  "region_ref": "Bilgewater",
+  "region_refs": [
+   "Bilgewater"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Mutiny",
+  "keyword_ids": [
+   116
+  ],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99DE002",
+  "name": "治療藥膏",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Healing Balm",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99DE004",
+  "name": "蒂瑪西亞商人",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 1,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Demacia",
+  "region_refs": [
+   "Demacia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Demacian Merchant",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99FR001",
+  "name": "普羅派對！",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Freljord",
+  "region_refs": [
+   "Freljord"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Poro Party!",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99IO001",
+  "name": "循環利用",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "專注",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Recursion",
+  "keyword_ids": [
+   143
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_focus"
+ },
+ {
+  "code": "99IO002",
+  "name": "神殿守衛",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Temple Guard",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99IO003",
+  "name": "熟練操影師",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "Ionia",
+  "region_refs": [
+   "Ionia"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Adept Shadebender",
+  "keyword_ids": [
+   0
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99MT001",
+  "name": "罐裝星辰",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Targon",
+  "region_refs": [
+   "Targon"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Bottled Constellation",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99MT002",
+  "name": "必行之路",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Targon",
+  "region_refs": [
+   "Targon"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "The Path",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99MT003",
+  "name": "星光巨鹿",
+  "kind": "unit",
+  "cost": 5,
+  "attack": 5,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Targon",
+  "region_refs": [
+   "Targon"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Starlight Stag",
+  "keyword_ids": [
+   52,
+   10
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99NE024",
+  "name": "分享禮讚",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Innervating Gift",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE025",
+  "name": "鼓舞餽贈",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Inspiring Gift",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE026",
+  "name": "滋補好禮",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Emboldening Gift",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE027",
+  "name": "提速餽贈",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Hastening Gift",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE028",
+  "name": "回復",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Defender's Advantage (Restoration)",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE029",
+  "name": "守護",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Defender's Advantage (Protection)",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE030",
+  "name": "強心",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Defender's Advantage (Embolden)",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE045",
+  "name": "分享禮讚",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "專注",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Innervating Gift (UF2)",
+  "keyword_ids": [
+   143
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_focus"
+ },
+ {
+  "code": "99NE046",
+  "name": "提速餽贈",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "專注",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Hastening Gift (UF2)",
+  "keyword_ids": [
+   143
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_focus"
+ },
+ {
+  "code": "99NE047",
+  "name": "激勵餽贈",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "專注",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Emboldening Gift (UF2)",
+  "keyword_ids": [
+   143
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_focus"
+ },
+ {
+  "code": "99NE050",
+  "name": "救護兵",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Medic",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE051",
+  "name": "寶石匠人",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Gemcraft",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE052",
+  "name": "奧術師",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Arcanist",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE053",
+  "name": "臨機應變",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Improviser",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE054",
+  "name": "牧者",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Shepherd",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE055",
+  "name": "商人",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Merchant",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE056",
+  "name": "普羅登場",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Poro Nip",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "99NE057",
+  "name": "衍生倍增器",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Derivative Duplicator",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE058",
+  "name": "零錢包",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Coin Pouch",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE059",
+  "name": "療癒點心",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Hearty Nosh",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE060",
+  "name": "屍鬼面具",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Ghoul Masks",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE061",
+  "name": "飛龍披風",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Dragon Capes",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE062",
+  "name": "皮革護甲",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Leather Padding",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE063",
+  "name": "詛咒卷軸",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Cursed Scroll",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE064",
+  "name": "魔法鈴",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Magic Bell",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE065",
+  "name": "訓練用假人",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Training Mannequin",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE066",
+  "name": "替換指令",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Replacement Orders",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE068",
+  "name": "廢棄物",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Junkyard Scraps",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE069",
+  "name": "愚人金",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Fools Gold",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE070",
+  "name": "魔力藥瓶",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Mana Vial",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE074",
+  "name": "小磨刀石",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Pocket Whetstone",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE075",
+  "name": "水晶碎片",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Crystal Shard",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE076",
+  "name": "打折商品",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Discount Goods",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE077",
+  "name": "神祕海龜殼",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Nurtle Shells",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE078",
+  "name": "高檔舶來品",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Premium Imports",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE079",
+  "name": "機械手臂",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Robot Arms",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE080",
+  "name": "召喚用鹽",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Summoning Salts",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE081",
+  "name": "流星碎片",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 6,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "技能",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Meteor Fragment",
+  "keyword_ids": [],
+  "tags": [],
+  "type_id": 6,
+  "spell_speed_kind": "spell_skill"
+ },
+ {
+  "code": "99NE081T1",
+  "name": "先見之明",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Premonition",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99NE082T1",
+  "name": "玩把戲",
+  "kind": "?",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": []
+ },
+ {
+  "code": "99NE082T2",
+  "name": "暴戾兇殘",
+  "kind": "?",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": []
+ },
+ {
+  "code": "99NE082T3",
+  "name": "領導能力",
+  "kind": "?",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": []
+ },
+ {
+  "code": "99NE082T4",
+  "name": "法術專精",
+  "kind": "?",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": []
+ },
+ {
+  "code": "99NE083T1",
+  "name": "寧靜",
+  "kind": "?",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": []
+ },
+ {
+  "code": "99NE083T2",
+  "name": "馭火術",
+  "kind": "?",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": null,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": []
+ },
+ {
+  "code": "99NE083T3",
+  "name": "前瞻力",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Free Predict (Mutator)",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NE084",
+  "name": "耐力晶片",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 0,
+  "health": 5,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Durability Augment",
+  "keyword_ids": [
+   75,
+   68,
+   3,
+   28,
+   100
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99NE085",
+  "name": "修復晶片",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 0,
+  "health": 5,
+  "speed": null,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Repair Augment",
+  "keyword_ids": [
+   69,
+   68,
+   3,
+   28,
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99NE086",
+  "name": "終極晶片",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 0,
+  "health": 10,
+  "speed": null,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Ultimate Augment",
+  "keyword_ids": [
+   68,
+   3,
+   22,
+   28,
+   100
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99NE087",
+  "name": "魔法晶片",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 0,
+  "health": 5,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Magic Augment",
+  "keyword_ids": [
+   52,
+   68,
+   3,
+   28,
+   100
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99NE088",
+  "name": "最終晶片",
+  "kind": "unit",
+  "cost": 10,
+  "attack": 10,
+  "health": 10,
+  "speed": null,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Final Augment",
+  "keyword_ids": [
+   52,
+   10
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99NX001",
+  "name": "雙刃斧",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Need Victims",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX002",
+  "name": "有斧頭嗎？",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Got Axes?",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX003",
+  "name": "瑞文聯盟",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "League of Draven",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX004",
+  "name": "戰團新兵",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Scouting Party",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX005",
+  "name": "用兵如神",
+  "kind": "spell",
+  "cost": 9,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Battlefield Dominance",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX006",
+  "name": "力量至上",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Strength Above All",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX007",
+  "name": "諾克薩斯之力",
+  "kind": "spell",
+  "cost": 8,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Unmatched Power",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX008",
+  "name": "炮火轟擊",
+  "kind": "spell",
+  "cost": 5,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Artillery Fire",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX009",
+  "name": "叛國孽黨",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Yet More Ravens",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX010",
+  "name": "殺出血路",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Carve a Path",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX011",
+  "name": "永不停歇",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Ever Onward",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99NX012",
+  "name": "準備放箭",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Let Loose",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "99NX013",
+  "name": "諾克薩斯商人",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "Noxus",
+  "region_refs": [
+   "Noxus"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Noxian Merchant",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ101",
+  "name": "雙面間諜",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Double Agent",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ102",
+  "name": "鐵骷髏幫老大",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 4,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Tinskull Boss",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ103",
+  "name": "巨砲執法機器人",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Klaxon Lawbot",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ103T1",
+  "name": "鐵趾執法機器人",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Steeltoe Lawbot",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ104",
+  "name": "火箭滑板",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 3,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Rocketboarder",
+  "keyword_ids": [
+   0
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ106",
+  "name": "鐵骷髏幫燃燒器",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 0,
+  "health": 4,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Tinskull Burner",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ109",
+  "name": "迷人公會成員",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Charming Guildmember",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ110",
+  "name": "翹課少女",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 3,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Class Cutter",
+  "keyword_ids": [
+   12
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ111",
+  "name": "灰背奇里安",
+  "kind": "unit",
+  "cost": 3,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Chirean Grayback",
+  "keyword_ids": [
+   0
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ112",
+  "name": "得意展售員",
+  "kind": "unit",
+  "cost": 2,
+  "attack": 2,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Proud Purveyor",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ113",
+  "name": "生物編目員",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Creature Cataloguer",
+  "keyword_ids": [
+   46
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ114",
+  "name": "寵物呼碰",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 2,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "House Whump",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ115",
+  "name": "海克斯科技觀測所",
+  "kind": "landmark",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 7,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "Hextech Observatory",
+  "keyword_ids": [
+   46,
+   142
+  ],
+  "tags": [],
+  "type_id": 7,
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ116",
+  "name": "好品味伯爵伊拉米斯",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Eramis, Baron of Taste",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ117",
+  "name": "鐵骷髏幫坦克",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 3,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Tinskull Tank",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ118",
+  "name": "擴增普羅",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 1,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Augmented Poro",
+  "keyword_ids": [
+   127
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ119",
+  "name": "鐵骷髏幫工匠",
+  "kind": "unit",
+  "cost": 1,
+  "attack": 2,
+  "health": 1,
+  "speed": null,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Tinskull Tinkerer",
+  "keyword_ids": [],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99PZ120",
+  "name": "執法鐵臂",
+  "kind": "spell",
+  "cost": 4,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Arm of the Law",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99PZ121",
+  "name": "惡作劇與騷亂",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "Mischief and Mayhem",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "99PZ124",
+  "name": "暴走重砲",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "The Loose Cannon",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99PZ125",
+  "name": "皮爾托福執法者",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "The Sheriff of Piltover",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99PZ126",
+  "name": "非自願測試者",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Involuntary Testing",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99PZ127",
+  "name": "明日守護者",
+  "kind": "spell",
+  "cost": 6,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "The Defender of Tomorrow",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99PZ128",
+  "name": "震動",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "speed_confirmed": true,
+  "rarity_id": 2,
+  "internal_name": "Jolt",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99PZ129",
+  "name": "時空少年",
+  "kind": "spell",
+  "cost": null,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "The Boy Who Shattered Time",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99PZ130",
+  "name": "砰砰",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "speed_confirmed": true,
+  "internal_name": "Pow-Pow",
+  "keyword_ids": [
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ },
+ {
+  "code": "99PZ131",
+  "name": "鐵腕特警",
+  "kind": "spell",
+  "cost": 3,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "PiltoverZaun",
+  "region_refs": [
+   "PiltoverZaun"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 3,
+  "internal_name": "The Piltover Enforcer",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99RU001",
+  "name": "魔幻時刻",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Captive Audience",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "99RU001T1",
+  "name": "魔幻時刻A",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Captive Audience A",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "99RU001T2",
+  "name": "魔幻時刻B",
+  "kind": "spell",
+  "cost": 2,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": false,
+  "region_ref": "Runeterra",
+  "region_refs": [
+   "Runeterra"
+  ],
+  "spell_speed": "快速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Captive Audience B",
+  "keyword_ids": [
+   114
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_fast"
+ },
+ {
+  "code": "99SH001",
+  "name": "沙漠之旱",
+  "kind": "spell",
+  "cost": 7,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "慢速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 2,
+  "internal_name": "Desert's Drought",
+  "keyword_ids": [
+   115
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_slow"
+ },
+ {
+  "code": "99SH002",
+  "name": "編鐘獵人",
+  "kind": "unit",
+  "cost": 4,
+  "attack": 5,
+  "health": 2,
+  "speed": null,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "",
+  "keywords": [],
+  "subtypes": [],
+  "internal_name": "World Walker",
+  "keyword_ids": [
+   18
+  ],
+  "tags": [],
+  "spell_speed_kind": ""
+ },
+ {
+  "code": "99SH003",
+  "name": "靈巧偽裝",
+  "kind": "spell",
+  "cost": 1,
+  "attack": null,
+  "health": null,
+  "speed": 3,
+  "art": true,
+  "region_ref": "Shurima",
+  "region_refs": [
+   "Shurima"
+  ],
+  "spell_speed": "疾速",
+  "keywords": [],
+  "subtypes": [],
+  "rarity_id": 5,
+  "internal_name": "Clever Camouflage",
+  "keyword_ids": [
+   55,
+   113
+  ],
+  "tags": [],
+  "type_id": 3,
+  "spell_speed_kind": "spell_burst"
+ }
+]

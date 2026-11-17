@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>LoRPoCTracker</AssemblyName>
+    <RootNamespace>LoRPoCTracker</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <SatelliteResourceLanguages>zh-Hans;en</SatelliteResourceLanguages>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <Version Condition="'$(Version)' == ''">1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 卡框与补充图标是缺口卡占位卡面的运行时资源，需要随程序分发 -->
+    <None Include="..\..\tools\frames\*.png" Link="tools\frames\%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\tools\icons\*.png" Link="tools\icons\%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" />
+    <!-- 游戏内独占卡（99 系列）的静态数据，首次启动拼图时读取 -->
+    <None Include="..\..\tools\poc_extra_cards.json" Link="data\poc_extra_cards.json"
+          CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\tools\card_refs.json" Link="data\card_refs.json"
+          CopyToOutputDirectory="PreserveNewest" />
+    <!-- 全卡插画取景参数（99 系列条目会在首次启动时按游戏资源覆盖） -->
+    <None Include="..\..\tools\illustration_roi.json" Link="data\local_assets\illustration_roi.json"
+          CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 99 系列卡图渲染所需的资源处理库 -->
+    <PackageReference Include="AssetsTools.NET" Version="3.0.0" />
+    <PackageReference Include="AssetsTools.NET.Texture" Version="3.0.2" />
+    <PackageReference Include="Kyaru.Texture2DDecoder" Version="0.17.1" />
+    <PackageReference Include="Kyaru.Texture2DDecoder.Windows" Version="0.2.0" />
+  </ItemGroup>
+
+</Project>

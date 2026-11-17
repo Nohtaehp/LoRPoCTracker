@@ -1,0 +1,112 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '版本号（如 1.0.1）'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Resolve version
+        id: ver
+        shell: pwsh
+        run: |
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") {
+            $v = "${{ inputs.version }}".TrimStart('v')
+          } else {
+            $v = "${{ github.ref_name }}".TrimStart('v')
+          }
+          if ($v -notmatch '^\d+\.\d+\.\d+$') { throw "版本号格式应为 x.y.z，实际为 $v" }
+          "version=$v" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+
+      - name: Publish (framework-dependent, win-x64)
+        shell: pwsh
+        run: |
+          dotnet publish src/LoRPoCTracker/LoRPoCTracker.csproj `
+            -c Release -r win-x64 --self-contained false `
+            -p:Version=${{ steps.ver.outputs.version }} `
+            -o publish
+
+      - name: Trim runtime data (keep only required files)
+        shell: pwsh
+        run: |
+          $data = "publish/data"
+          if (Test-Path $data) {
+            Get-ChildItem $data -File | Where-Object {
+              $_.Name -notin @('poc_extra_cards.json','card_refs.json')
+            } | Remove-Item -Force
+            if (Test-Path "$data/local_assets") {
+              Get-ChildItem "$data/local_assets" -Recurse -File | Where-Object {
+                $_.FullName -notmatch 'illustration_roi\.json$'
+              } | Remove-Item -Force
+            }
+          }
+
+      - name: Package zip
+        id: pkg
+        shell: pwsh
+        run: |
+          $v = "${{ steps.ver.outputs.version }}"
+          $name = "LoRPoCTracker-$v-win-x64.zip"
+          Compress-Archive -Path "publish/*" -DestinationPath $name -CompressionLevel Optimal
+          $hash = (Get-FileHash $name -Algorithm SHA256).Hash
+          $size = (Get-Item $name).Length
+          "name=$name" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          "hash=$hash" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          "size=$size" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+
+      - name: Generate manifest
+        shell: pwsh
+        run: |
+          $v = "${{ steps.ver.outputs.version }}"
+          $parts = $v -split '\.'
+          $code = 0
+          foreach ($p in $parts) { $code = $code * 1000 + [int]$p }
+          while ($parts.Count -lt 3) { $code = $code * 1000; $parts += '0' }
+          $manifest = @{
+            version = $v
+            versionCode = [int]$code
+            published = (Get-Date).ToString("yyyy-MM-dd")
+            notes = "详见 Release 页面：https://github.com/${{ github.repository }}/releases/tag/v$v"
+            package = "${{ steps.pkg.outputs.name }}"
+            sha256 = "${{ steps.pkg.outputs.hash }}"
+            size = [long]"${{ steps.pkg.outputs.size }}"
+            minRuntime = "9.0"
+          } | ConvertTo-Json -Depth 3
+          New-Item -ItemType Directory -Force -Path update | Out-Null
+          $manifest | Out-File -FilePath update/manifest.json -Encoding utf8
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.ver.outputs.version }}
+          name: v${{ steps.ver.outputs.version }}
+          generate_release_notes: true
+          files: ${{ steps.pkg.outputs.name }}
+
+      - name: Commit updated manifest back to main
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add update/manifest.json
+          git commit -m "chore: update manifest to ${{ steps.ver.outputs.version }}" || exit 0
+          git push origin HEAD:main
